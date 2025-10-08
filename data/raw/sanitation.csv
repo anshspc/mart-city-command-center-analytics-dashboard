@@ -1,0 +1,889 @@
+timestamp,sector_id,waste_collected_tons,waste_type,trucks_deployed,missed_pickups,sanitation_rating
+2026-05-01 00:00:00,Rajwada Sector,7.4,Recyclable,3,0,4.9
+2026-05-01 00:00:00,Vijay Nagar Sector,7.08,Hazardous,3,0,4.68
+2026-05-01 00:00:00,Palasia Sector,5.16,Recyclable,3,0,4.83
+2026-05-01 00:00:00,Bhawarkua Sector,5.19,Organic,3,0,4.72
+2026-05-01 00:00:00,Sudama Nagar Sector,4.34,Organic,2,0,4.68
+2026-05-01 00:00:00,Khajrana Sector,5.8,Organic,3,0,4.86
+2026-05-01 00:00:00,Annapurna Sector,4.98,Recyclable,2,0,4.9
+2026-05-01 00:00:00,LIG Sector,4.86,Organic,2,0,4.76
+2026-05-01 12:00:00,Rajwada Sector,3.46,Organic,2,0,5.0
+2026-05-01 12:00:00,Vijay Nagar Sector,4.2,Organic,2,0,4.85
+2026-05-01 12:00:00,Palasia Sector,2.28,Organic,1,0,5.0
+2026-05-01 12:00:00,Bhawarkua Sector,2.6,Organic,2,0,4.99
+2026-05-01 12:00:00,Sudama Nagar Sector,2.84,Recyclable,2,0,4.93
+2026-05-01 12:00:00,Khajrana Sector,1.58,Organic,1,0,4.81
+2026-05-01 12:00:00,Annapurna Sector,1.71,Organic,1,0,4.8
+2026-05-01 12:00:00,LIG Sector,2.0,Recyclable,1,0,4.84
+2026-05-02 00:00:00,Rajwada Sector,8.5,Organic,4,0,4.71
+2026-05-02 00:00:00,Vijay Nagar Sector,8.31,Organic,4,0,4.66
+2026-05-02 00:00:00,Palasia Sector,6.09,Recyclable,3,0,4.97
+2026-05-02 00:00:00,Bhawarkua Sector,5.8,Organic,3,0,4.89
+2026-05-02 00:00:00,Sudama Nagar Sector,4.88,Recyclable,2,0,4.91
+2026-05-02 00:00:00,Khajrana Sector,6.13,Organic,3,0,4.73
+2026-05-02 00:00:00,Annapurna Sector,5.92,Organic,3,0,4.61
+2026-05-02 00:00:00,LIG Sector,5.57,Recyclable,3,0,4.99
+2026-05-02 12:00:00,Rajwada Sector,3.33,Organic,2,0,4.85
+2026-05-02 12:00:00,Vijay Nagar Sector,3.47,Organic,2,0,4.81
+2026-05-02 12:00:00,Palasia Sector,0.9,Recyclable,1,1,4.19
+2026-05-02 12:00:00,Bhawarkua Sector,2.36,Organic,1,0,5.0
+2026-05-02 12:00:00,Sudama Nagar Sector,2.06,Organic,1,0,4.79
+2026-05-02 12:00:00,Khajrana Sector,1.64,Recyclable,1,0,4.65
+2026-05-02 12:00:00,Annapurna Sector,2.7,Recyclable,2,0,4.96
+2026-05-02 12:00:00,LIG Sector,3.44,Organic,2,0,4.87
+2026-05-03 00:00:00,Rajwada Sector,7.72,Organic,4,0,4.7
+2026-05-03 00:00:00,Vijay Nagar Sector,7.85,Organic,4,0,4.84
+2026-05-03 00:00:00,Palasia Sector,6.38,Organic,3,0,5.0
+2026-05-03 00:00:00,Bhawarkua Sector,5.51,Organic,3,0,4.77
+2026-05-03 00:00:00,Sudama Nagar Sector,5.58,Organic,3,0,4.89
+2026-05-03 00:00:00,Khajrana Sector,6.08,Recyclable,3,0,4.8
+2026-05-03 00:00:00,Annapurna Sector,5.14,Organic,3,0,4.9
+2026-05-03 00:00:00,LIG Sector,6.67,Organic,3,0,4.84
+2026-05-03 12:00:00,Rajwada Sector,2.84,Recyclable,2,0,4.71
+2026-05-03 12:00:00,Vijay Nagar Sector,3.47,Organic,2,0,4.79
+2026-05-03 12:00:00,Palasia Sector,2.61,Organic,2,0,4.84
+2026-05-03 12:00:00,Bhawarkua Sector,2.61,Organic,2,0,4.8
+2026-05-03 12:00:00,Sudama Nagar Sector,2.48,Organic,1,0,4.89
+2026-05-03 12:00:00,Khajrana Sector,2.75,Organic,2,0,4.88
+2026-05-03 12:00:00,Annapurna Sector,2.77,Organic,2,0,4.86
+2026-05-03 12:00:00,LIG Sector,2.29,Organic,1,0,4.74
+2026-05-04 00:00:00,Rajwada Sector,6.5,Organic,3,0,4.79
+2026-05-04 00:00:00,Vijay Nagar Sector,7.22,Organic,3,0,4.99
+2026-05-04 00:00:00,Palasia Sector,4.2,Organic,2,0,4.8
+2026-05-04 00:00:00,Bhawarkua Sector,4.74,Organic,2,0,4.88
+2026-05-04 00:00:00,Sudama Nagar Sector,4.47,Organic,2,0,4.84
+2026-05-04 00:00:00,Khajrana Sector,5.22,Organic,3,0,4.84
+2026-05-04 00:00:00,Annapurna Sector,4.76,Recyclable,2,0,4.89
+2026-05-04 00:00:00,LIG Sector,4.68,Organic,2,0,4.88
+2026-05-04 12:00:00,Rajwada Sector,3.12,Hazardous,2,0,4.83
+2026-05-04 12:00:00,Vijay Nagar Sector,2.77,Organic,2,0,5.0
+2026-05-04 12:00:00,Palasia Sector,1.26,Hazardous,1,0,4.8
+2026-05-04 12:00:00,Bhawarkua Sector,2.66,Organic,2,0,4.84
+2026-05-04 12:00:00,Sudama Nagar Sector,1.79,Organic,1,0,4.9
+2026-05-04 12:00:00,Khajrana Sector,2.24,Organic,1,0,4.88
+2026-05-04 12:00:00,Annapurna Sector,2.45,Organic,1,0,4.8
+2026-05-04 12:00:00,LIG Sector,0.93,Organic,1,0,4.86
+2026-05-05 00:00:00,Rajwada Sector,6.5,Organic,3,0,4.77
+2026-05-05 00:00:00,Vijay Nagar Sector,6.98,Organic,3,0,4.94
+2026-05-05 00:00:00,Palasia Sector,5.01,Organic,3,0,4.91
+2026-05-05 00:00:00,Bhawarkua Sector,5.8,Organic,3,0,4.89
+2026-05-05 00:00:00,Sudama Nagar Sector,4.54,Organic,2,0,5.0
+2026-05-05 00:00:00,Khajrana Sector,5.35,Organic,3,0,4.84
+2026-05-05 00:00:00,Annapurna Sector,5.38,Organic,3,0,5.0
+2026-05-05 00:00:00,LIG Sector,4.85,Organic,2,0,4.86
+2026-05-05 12:00:00,Rajwada Sector,2.62,Organic,2,0,4.93
+2026-05-05 12:00:00,Vijay Nagar Sector,2.83,Organic,2,0,4.71
+2026-05-05 12:00:00,Palasia Sector,2.14,Organic,1,0,4.94
+2026-05-05 12:00:00,Bhawarkua Sector,0.82,Recyclable,1,0,4.68
+2026-05-05 12:00:00,Sudama Nagar Sector,1.9,Organic,1,0,4.72
+2026-05-05 12:00:00,Khajrana Sector,1.8,Recyclable,1,0,4.71
+2026-05-05 12:00:00,Annapurna Sector,2.19,Recyclable,1,0,4.91
+2026-05-05 12:00:00,LIG Sector,2.46,Organic,1,0,5.0
+2026-05-06 00:00:00,Rajwada Sector,7.05,Recyclable,3,0,5.0
+2026-05-06 00:00:00,Vijay Nagar Sector,7.43,Organic,3,0,4.75
+2026-05-06 00:00:00,Palasia Sector,4.71,Organic,2,0,4.76
+2026-05-06 00:00:00,Bhawarkua Sector,5.52,Recyclable,3,0,4.96
+2026-05-06 00:00:00,Sudama Nagar Sector,5.63,Hazardous,3,0,4.88
+2026-05-06 00:00:00,Khajrana Sector,5.2,Organic,3,0,4.96
+2026-05-06 00:00:00,Annapurna Sector,4.68,Organic,2,0,4.79
+2026-05-06 00:00:00,LIG Sector,5.96,Organic,3,0,4.82
+2026-05-06 12:00:00,Rajwada Sector,2.93,Hazardous,2,0,4.73
+2026-05-06 12:00:00,Vijay Nagar Sector,3.16,Organic,2,0,4.73
+2026-05-06 12:00:00,Palasia Sector,2.95,Organic,2,0,4.94
+2026-05-06 12:00:00,Bhawarkua Sector,2.29,Recyclable,1,0,5.0
+2026-05-06 12:00:00,Sudama Nagar Sector,1.86,Recyclable,1,0,4.78
+2026-05-06 12:00:00,Khajrana Sector,2.62,Organic,2,0,4.77
+2026-05-06 12:00:00,Annapurna Sector,2.28,Organic,1,0,4.78
+2026-05-06 12:00:00,LIG Sector,1.53,Organic,1,2,3.48
+2026-05-07 00:00:00,Rajwada Sector,7.34,Organic,3,0,4.85
+2026-05-07 00:00:00,Vijay Nagar Sector,7.53,Organic,4,0,4.71
+2026-05-07 00:00:00,Palasia Sector,4.96,Organic,2,0,4.91
+2026-05-07 00:00:00,Bhawarkua Sector,5.44,Organic,3,0,4.78
+2026-05-07 00:00:00,Sudama Nagar Sector,4.43,Hazardous,2,0,4.97
+2026-05-07 00:00:00,Khajrana Sector,4.12,Organic,2,0,4.88
+2026-05-07 00:00:00,Annapurna Sector,4.57,Recyclable,2,0,4.92
+2026-05-07 00:00:00,LIG Sector,5.2,Recyclable,3,0,4.94
+2026-05-07 12:00:00,Rajwada Sector,2.94,Recyclable,2,0,4.78
+2026-05-07 12:00:00,Vijay Nagar Sector,1.61,Organic,1,0,4.79
+2026-05-07 12:00:00,Palasia Sector,1.93,Organic,1,0,4.87
+2026-05-07 12:00:00,Bhawarkua Sector,2.7,Recyclable,2,0,4.77
+2026-05-07 12:00:00,Sudama Nagar Sector,2.73,Organic,2,0,4.92
+2026-05-07 12:00:00,Khajrana Sector,2.15,Recyclable,1,0,4.93
+2026-05-07 12:00:00,Annapurna Sector,2.48,Organic,1,0,4.8
+2026-05-07 12:00:00,LIG Sector,1.69,Organic,1,0,4.96
+2026-05-08 00:00:00,Rajwada Sector,6.66,Organic,3,0,4.87
+2026-05-08 00:00:00,Vijay Nagar Sector,6.83,Recyclable,3,0,5.0
+2026-05-08 00:00:00,Palasia Sector,4.45,Recyclable,2,0,4.77
+2026-05-08 00:00:00,Bhawarkua Sector,5.16,Recyclable,3,0,4.88
+2026-05-08 00:00:00,Sudama Nagar Sector,5.06,Recyclable,3,0,4.81
+2026-05-08 00:00:00,Khajrana Sector,4.68,Organic,2,0,4.91
+2026-05-08 00:00:00,Annapurna Sector,4.96,Organic,2,0,4.76
+2026-05-08 00:00:00,LIG Sector,4.6,Organic,2,0,4.86
+2026-05-08 12:00:00,Rajwada Sector,2.64,Organic,2,0,4.88
+2026-05-08 12:00:00,Vijay Nagar Sector,3.54,Recyclable,2,1,4.34
+2026-05-08 12:00:00,Palasia Sector,1.38,Organic,1,0,5.0
+2026-05-08 12:00:00,Bhawarkua Sector,2.85,Organic,2,0,4.88
+2026-05-08 12:00:00,Sudama Nagar Sector,1.65,Organic,1,0,4.9
+2026-05-08 12:00:00,Khajrana Sector,1.69,Organic,1,0,4.95
+2026-05-08 12:00:00,Annapurna Sector,2.26,Organic,1,0,4.76
+2026-05-08 12:00:00,LIG Sector,2.31,Organic,1,0,4.77
+2026-05-09 00:00:00,Rajwada Sector,8.45,Organic,4,0,4.84
+2026-05-09 00:00:00,Vijay Nagar Sector,7.08,Organic,3,0,4.84
+2026-05-09 00:00:00,Palasia Sector,5.44,Organic,3,0,4.84
+2026-05-09 00:00:00,Bhawarkua Sector,5.54,Hazardous,3,0,4.91
+2026-05-09 00:00:00,Sudama Nagar Sector,4.84,Organic,2,0,4.82
+2026-05-09 00:00:00,Khajrana Sector,5.34,Organic,3,0,4.94
+2026-05-09 00:00:00,Annapurna Sector,4.9,Hazardous,2,0,4.87
+2026-05-09 00:00:00,LIG Sector,5.47,Organic,3,0,4.79
+2026-05-09 12:00:00,Rajwada Sector,3.44,Recyclable,2,0,4.85
+2026-05-09 12:00:00,Vijay Nagar Sector,3.2,Recyclable,2,0,4.89
+2026-05-09 12:00:00,Palasia Sector,1.67,Organic,1,0,4.91
+2026-05-09 12:00:00,Bhawarkua Sector,2.15,Organic,1,0,4.8
+2026-05-09 12:00:00,Sudama Nagar Sector,2.72,Organic,2,0,4.85
+2026-05-09 12:00:00,Khajrana Sector,1.94,Organic,1,0,4.85
+2026-05-09 12:00:00,Annapurna Sector,2.32,Organic,1,0,4.85
+2026-05-09 12:00:00,LIG Sector,3.04,Recyclable,2,0,4.58
+2026-05-10 00:00:00,Rajwada Sector,7.44,Organic,3,0,4.76
+2026-05-10 00:00:00,Vijay Nagar Sector,7.64,Organic,4,0,4.99
+2026-05-10 00:00:00,Palasia Sector,6.13,Organic,3,0,4.81
+2026-05-10 00:00:00,Bhawarkua Sector,6.32,Organic,3,0,4.81
+2026-05-10 00:00:00,Sudama Nagar Sector,5.36,Recyclable,3,0,5.0
+2026-05-10 00:00:00,Khajrana Sector,5.44,Organic,3,0,4.89
+2026-05-10 00:00:00,Annapurna Sector,6.43,Recyclable,3,0,5.0
+2026-05-10 00:00:00,LIG Sector,6.22,Organic,3,0,4.93
+2026-05-10 12:00:00,Rajwada Sector,3.69,Recyclable,2,0,4.86
+2026-05-10 12:00:00,Vijay Nagar Sector,3.29,Hazardous,2,0,4.73
+2026-05-10 12:00:00,Palasia Sector,2.57,Recyclable,2,0,4.76
+2026-05-10 12:00:00,Bhawarkua Sector,2.34,Organic,1,0,5.0
+2026-05-10 12:00:00,Sudama Nagar Sector,2.04,Recyclable,1,0,4.93
+2026-05-10 12:00:00,Khajrana Sector,2.66,Organic,2,0,4.94
+2026-05-10 12:00:00,Annapurna Sector,1.57,Recyclable,1,1,3.99
+2026-05-10 12:00:00,LIG Sector,2.65,Organic,2,0,4.82
+2026-05-11 00:00:00,Rajwada Sector,6.98,Recyclable,3,0,5.0
+2026-05-11 00:00:00,Vijay Nagar Sector,7.04,Organic,3,0,4.93
+2026-05-11 00:00:00,Palasia Sector,4.95,Organic,2,0,4.73
+2026-05-11 00:00:00,Bhawarkua Sector,4.1,Organic,2,0,4.69
+2026-05-11 00:00:00,Sudama Nagar Sector,5.66,Recyclable,3,0,4.73
+2026-05-11 00:00:00,Khajrana Sector,4.87,Hazardous,2,0,4.89
+2026-05-11 00:00:00,Annapurna Sector,4.13,Organic,2,0,4.76
+2026-05-11 00:00:00,LIG Sector,4.74,Recyclable,2,0,4.94
+2026-05-11 12:00:00,Rajwada Sector,2.47,Recyclable,1,0,4.96
+2026-05-11 12:00:00,Vijay Nagar Sector,3.13,Organic,2,0,4.84
+2026-05-11 12:00:00,Palasia Sector,2.2,Organic,1,0,4.86
+2026-05-11 12:00:00,Bhawarkua Sector,2.61,Recyclable,2,0,4.91
+2026-05-11 12:00:00,Sudama Nagar Sector,2.67,Organic,2,0,4.81
+2026-05-11 12:00:00,Khajrana Sector,2.19,Organic,1,0,4.92
+2026-05-11 12:00:00,Annapurna Sector,2.23,Recyclable,1,0,4.95
+2026-05-11 12:00:00,LIG Sector,1.84,Hazardous,1,0,4.75
+2026-05-12 00:00:00,Rajwada Sector,6.72,Organic,3,2,3.39
+2026-05-12 00:00:00,Vijay Nagar Sector,6.94,Organic,3,0,4.87
+2026-05-12 00:00:00,Palasia Sector,5.76,Hazardous,3,0,4.82
+2026-05-12 00:00:00,Bhawarkua Sector,4.89,Organic,2,0,4.92
+2026-05-12 00:00:00,Sudama Nagar Sector,4.43,Organic,2,0,4.81
+2026-05-12 00:00:00,Khajrana Sector,5.63,Recyclable,3,0,4.77
+2026-05-12 00:00:00,Annapurna Sector,4.95,Organic,2,0,4.95
+2026-05-12 00:00:00,LIG Sector,4.62,Organic,2,0,4.79
+2026-05-12 12:00:00,Rajwada Sector,3.64,Recyclable,2,0,4.95
+2026-05-12 12:00:00,Vijay Nagar Sector,2.63,Organic,2,0,4.94
+2026-05-12 12:00:00,Palasia Sector,2.0,Organic,1,0,4.86
+2026-05-12 12:00:00,Bhawarkua Sector,2.11,Organic,1,0,4.81
+2026-05-12 12:00:00,Sudama Nagar Sector,2.79,Organic,2,0,4.87
+2026-05-12 12:00:00,Khajrana Sector,0.68,Organic,1,0,4.82
+2026-05-12 12:00:00,Annapurna Sector,2.14,Organic,1,0,4.89
+2026-05-12 12:00:00,LIG Sector,2.97,Hazardous,2,0,4.91
+2026-05-13 00:00:00,Rajwada Sector,7.49,Recyclable,3,0,4.81
+2026-05-13 00:00:00,Vijay Nagar Sector,6.47,Recyclable,3,0,4.81
+2026-05-13 00:00:00,Palasia Sector,5.7,Organic,3,0,4.97
+2026-05-13 00:00:00,Bhawarkua Sector,4.77,Organic,2,0,4.66
+2026-05-13 00:00:00,Sudama Nagar Sector,4.64,Organic,2,0,4.96
+2026-05-13 00:00:00,Khajrana Sector,4.53,Organic,2,0,4.7
+2026-05-13 00:00:00,Annapurna Sector,5.33,Recyclable,3,0,4.84
+2026-05-13 00:00:00,LIG Sector,4.31,Recyclable,2,0,4.85
+2026-05-13 12:00:00,Rajwada Sector,3.07,Organic,2,0,4.91
+2026-05-13 12:00:00,Vijay Nagar Sector,3.05,Recyclable,2,0,4.69
+2026-05-13 12:00:00,Palasia Sector,2.53,Organic,2,0,4.82
+2026-05-13 12:00:00,Bhawarkua Sector,2.54,Organic,2,0,4.62
+2026-05-13 12:00:00,Sudama Nagar Sector,1.92,Organic,1,0,4.82
+2026-05-13 12:00:00,Khajrana Sector,1.76,Recyclable,1,1,4.19
+2026-05-13 12:00:00,Annapurna Sector,2.06,Recyclable,1,0,4.72
+2026-05-13 12:00:00,LIG Sector,1.74,Recyclable,1,0,4.89
+2026-05-14 00:00:00,Rajwada Sector,6.9,Organic,3,0,4.96
+2026-05-14 00:00:00,Vijay Nagar Sector,7.18,Organic,3,0,4.74
+2026-05-14 00:00:00,Palasia Sector,5.03,Organic,3,0,4.85
+2026-05-14 00:00:00,Bhawarkua Sector,4.73,Organic,2,0,4.86
+2026-05-14 00:00:00,Sudama Nagar Sector,4.81,Organic,2,0,4.91
+2026-05-14 00:00:00,Khajrana Sector,6.04,Recyclable,3,0,4.93
+2026-05-14 00:00:00,Annapurna Sector,4.92,Hazardous,2,0,4.89
+2026-05-14 00:00:00,LIG Sector,5.02,Recyclable,3,0,4.89
+2026-05-14 12:00:00,Rajwada Sector,3.04,Organic,2,0,4.92
+2026-05-14 12:00:00,Vijay Nagar Sector,2.26,Recyclable,1,0,4.87
+2026-05-14 12:00:00,Palasia Sector,2.18,Organic,1,0,4.99
+2026-05-14 12:00:00,Bhawarkua Sector,1.67,Recyclable,1,0,4.74
+2026-05-14 12:00:00,Sudama Nagar Sector,1.56,Organic,1,0,4.87
+2026-05-14 12:00:00,Khajrana Sector,2.08,Hazardous,1,0,4.8
+2026-05-14 12:00:00,Annapurna Sector,2.17,Organic,1,0,4.9
+2026-05-14 12:00:00,LIG Sector,2.06,Organic,1,0,4.79
+2026-05-15 00:00:00,Rajwada Sector,7.28,Organic,3,0,4.93
+2026-05-15 00:00:00,Vijay Nagar Sector,7.52,Recyclable,4,0,4.79
+2026-05-15 00:00:00,Palasia Sector,5.37,Organic,3,0,4.93
+2026-05-15 00:00:00,Bhawarkua Sector,4.91,Recyclable,2,0,4.72
+2026-05-15 00:00:00,Sudama Nagar Sector,5.41,Organic,3,0,4.92
+2026-05-15 00:00:00,Khajrana Sector,5.19,Organic,3,0,4.97
+2026-05-15 00:00:00,Annapurna Sector,4.47,Recyclable,2,0,4.58
+2026-05-15 00:00:00,LIG Sector,5.12,Recyclable,3,0,4.71
+2026-05-15 12:00:00,Rajwada Sector,3.18,Recyclable,2,0,4.92
+2026-05-15 12:00:00,Vijay Nagar Sector,3.48,Recyclable,2,0,4.81
+2026-05-15 12:00:00,Palasia Sector,1.78,Organic,1,0,4.86
+2026-05-15 12:00:00,Bhawarkua Sector,2.85,Organic,2,2,3.48
+2026-05-15 12:00:00,Sudama Nagar Sector,3.06,Hazardous,2,0,4.82
+2026-05-15 12:00:00,Khajrana Sector,2.27,Organic,1,0,4.97
+2026-05-15 12:00:00,Annapurna Sector,2.08,Organic,1,0,5.0
+2026-05-15 12:00:00,LIG Sector,1.73,Hazardous,1,0,4.86
+2026-05-16 00:00:00,Rajwada Sector,8.52,Organic,4,0,4.89
+2026-05-16 00:00:00,Vijay Nagar Sector,8.37,Recyclable,4,0,5.0
+2026-05-16 00:00:00,Palasia Sector,5.18,Organic,3,0,4.76
+2026-05-16 00:00:00,Bhawarkua Sector,4.81,Hazardous,2,0,4.74
+2026-05-16 00:00:00,Sudama Nagar Sector,5.54,Organic,3,0,4.85
+2026-05-16 00:00:00,Khajrana Sector,5.94,Organic,3,0,5.0
+2026-05-16 00:00:00,Annapurna Sector,4.98,Recyclable,2,0,4.76
+2026-05-16 00:00:00,LIG Sector,6.29,Recyclable,3,0,4.95
+2026-05-16 12:00:00,Rajwada Sector,3.7,Organic,2,0,4.69
+2026-05-16 12:00:00,Vijay Nagar Sector,4.29,Organic,2,0,4.78
+2026-05-16 12:00:00,Palasia Sector,2.34,Organic,1,0,4.88
+2026-05-16 12:00:00,Bhawarkua Sector,2.15,Organic,1,0,4.93
+2026-05-16 12:00:00,Sudama Nagar Sector,1.79,Organic,1,0,4.85
+2026-05-16 12:00:00,Khajrana Sector,2.86,Hazardous,2,0,4.68
+2026-05-16 12:00:00,Annapurna Sector,2.87,Organic,2,0,4.59
+2026-05-16 12:00:00,LIG Sector,1.62,Recyclable,1,0,4.85
+2026-05-17 00:00:00,Rajwada Sector,7.35,Organic,3,0,4.81
+2026-05-17 00:00:00,Vijay Nagar Sector,8.12,Organic,4,0,4.9
+2026-05-17 00:00:00,Palasia Sector,5.62,Recyclable,3,0,4.85
+2026-05-17 00:00:00,Bhawarkua Sector,5.03,Recyclable,3,0,4.63
+2026-05-17 00:00:00,Sudama Nagar Sector,5.82,Organic,3,0,4.84
+2026-05-17 00:00:00,Khajrana Sector,5.62,Recyclable,3,0,4.7
+2026-05-17 00:00:00,Annapurna Sector,5.99,Organic,3,0,4.74
+2026-05-17 00:00:00,LIG Sector,5.24,Recyclable,3,0,4.9
+2026-05-17 12:00:00,Rajwada Sector,4.04,Recyclable,2,0,4.79
+2026-05-17 12:00:00,Vijay Nagar Sector,3.35,Organic,2,0,4.93
+2026-05-17 12:00:00,Palasia Sector,2.05,Organic,1,0,4.91
+2026-05-17 12:00:00,Bhawarkua Sector,3.38,Recyclable,2,0,4.92
+2026-05-17 12:00:00,Sudama Nagar Sector,2.22,Organic,1,0,4.72
+2026-05-17 12:00:00,Khajrana Sector,2.45,Organic,1,0,4.92
+2026-05-17 12:00:00,Annapurna Sector,2.15,Organic,1,0,4.78
+2026-05-17 12:00:00,LIG Sector,2.29,Organic,1,0,4.84
+2026-05-18 00:00:00,Rajwada Sector,6.84,Recyclable,3,0,4.79
+2026-05-18 00:00:00,Vijay Nagar Sector,7.62,Organic,4,0,4.79
+2026-05-18 00:00:00,Palasia Sector,5.39,Hazardous,3,0,4.82
+2026-05-18 00:00:00,Bhawarkua Sector,4.55,Recyclable,2,0,4.87
+2026-05-18 00:00:00,Sudama Nagar Sector,4.76,Organic,2,0,4.83
+2026-05-18 00:00:00,Khajrana Sector,4.47,Organic,2,0,4.95
+2026-05-18 00:00:00,Annapurna Sector,5.26,Organic,3,0,4.73
+2026-05-18 00:00:00,LIG Sector,4.88,Recyclable,2,0,4.98
+2026-05-18 12:00:00,Rajwada Sector,3.45,Organic,2,0,4.97
+2026-05-18 12:00:00,Vijay Nagar Sector,3.02,Recyclable,2,0,4.82
+2026-05-18 12:00:00,Palasia Sector,2.31,Organic,1,0,4.96
+2026-05-18 12:00:00,Bhawarkua Sector,0.76,Organic,1,0,5.0
+2026-05-18 12:00:00,Sudama Nagar Sector,1.62,Organic,1,0,4.78
+2026-05-18 12:00:00,Khajrana Sector,3.48,Hazardous,2,0,4.86
+2026-05-18 12:00:00,Annapurna Sector,1.54,Recyclable,1,0,5.0
+2026-05-18 12:00:00,LIG Sector,1.78,Recyclable,1,0,4.76
+2026-05-19 00:00:00,Rajwada Sector,6.6,Organic,3,0,4.76
+2026-05-19 00:00:00,Vijay Nagar Sector,6.9,Organic,3,0,4.87
+2026-05-19 00:00:00,Palasia Sector,5.42,Organic,3,1,4.28
+2026-05-19 00:00:00,Bhawarkua Sector,4.57,Organic,2,0,4.74
+2026-05-19 00:00:00,Sudama Nagar Sector,5.49,Organic,3,0,4.82
+2026-05-19 00:00:00,Khajrana Sector,4.81,Organic,2,0,4.89
+2026-05-19 00:00:00,Annapurna Sector,5.32,Organic,3,0,4.87
+2026-05-19 00:00:00,LIG Sector,4.5,Recyclable,2,0,4.84
+2026-05-19 12:00:00,Rajwada Sector,2.94,Organic,2,0,4.79
+2026-05-19 12:00:00,Vijay Nagar Sector,3.24,Organic,2,0,4.73
+2026-05-19 12:00:00,Palasia Sector,1.64,Organic,1,0,4.77
+2026-05-19 12:00:00,Bhawarkua Sector,2.55,Recyclable,2,0,4.87
+2026-05-19 12:00:00,Sudama Nagar Sector,1.69,Recyclable,1,0,4.87
+2026-05-19 12:00:00,Khajrana Sector,1.77,Organic,1,0,4.78
+2026-05-19 12:00:00,Annapurna Sector,1.95,Recyclable,1,0,4.74
+2026-05-19 12:00:00,LIG Sector,1.46,Recyclable,1,0,4.83
+2026-05-20 00:00:00,Rajwada Sector,7.21,Recyclable,3,0,4.82
+2026-05-20 00:00:00,Vijay Nagar Sector,7.01,Recyclable,3,0,4.75
+2026-05-20 00:00:00,Palasia Sector,4.28,Recyclable,2,0,4.8
+2026-05-20 00:00:00,Bhawarkua Sector,5.56,Recyclable,3,0,4.88
+2026-05-20 00:00:00,Sudama Nagar Sector,4.97,Recyclable,2,0,4.89
+2026-05-20 00:00:00,Khajrana Sector,5.01,Recyclable,3,0,5.0
+2026-05-20 00:00:00,Annapurna Sector,6.48,Organic,3,0,5.0
+2026-05-20 00:00:00,LIG Sector,5.06,Hazardous,3,0,4.76
+2026-05-20 12:00:00,Rajwada Sector,2.95,Organic,2,0,4.87
+2026-05-20 12:00:00,Vijay Nagar Sector,2.6,Organic,2,0,4.76
+2026-05-20 12:00:00,Palasia Sector,2.76,Organic,2,0,4.93
+2026-05-20 12:00:00,Bhawarkua Sector,1.55,Organic,1,0,4.65
+2026-05-20 12:00:00,Sudama Nagar Sector,2.33,Recyclable,1,0,4.77
+2026-05-20 12:00:00,Khajrana Sector,2.37,Recyclable,1,0,5.0
+2026-05-20 12:00:00,Annapurna Sector,1.46,Organic,1,0,4.82
+2026-05-20 12:00:00,LIG Sector,2.25,Recyclable,1,2,3.44
+2026-05-21 00:00:00,Rajwada Sector,6.86,Organic,3,0,4.87
+2026-05-21 00:00:00,Vijay Nagar Sector,7.54,Organic,4,0,4.88
+2026-05-21 00:00:00,Palasia Sector,5.43,Organic,3,0,5.0
+2026-05-21 00:00:00,Bhawarkua Sector,5.23,Recyclable,3,0,4.9
+2026-05-21 00:00:00,Sudama Nagar Sector,5.05,Recyclable,3,0,4.81
+2026-05-21 00:00:00,Khajrana Sector,4.95,Recyclable,2,0,4.99
+2026-05-21 00:00:00,Annapurna Sector,5.17,Organic,3,0,4.84
+2026-05-21 00:00:00,LIG Sector,5.31,Organic,3,0,4.79
+2026-05-21 12:00:00,Rajwada Sector,2.61,Organic,2,0,4.78
+2026-05-21 12:00:00,Vijay Nagar Sector,3.97,Organic,2,0,4.91
+2026-05-21 12:00:00,Palasia Sector,2.13,Hazardous,1,0,4.97
+2026-05-21 12:00:00,Bhawarkua Sector,1.52,Recyclable,1,0,4.77
+2026-05-21 12:00:00,Sudama Nagar Sector,2.26,Organic,1,0,4.78
+2026-05-21 12:00:00,Khajrana Sector,2.41,Organic,1,0,4.88
+2026-05-21 12:00:00,Annapurna Sector,2.0,Recyclable,1,0,4.9
+2026-05-21 12:00:00,LIG Sector,1.77,Organic,1,0,4.84
+2026-05-22 00:00:00,Rajwada Sector,7.99,Organic,4,0,4.88
+2026-05-22 00:00:00,Vijay Nagar Sector,7.43,Organic,3,0,4.9
+2026-05-22 00:00:00,Palasia Sector,4.55,Organic,2,0,4.89
+2026-05-22 00:00:00,Bhawarkua Sector,4.65,Recyclable,2,0,4.85
+2026-05-22 00:00:00,Sudama Nagar Sector,5.5,Recyclable,3,0,4.64
+2026-05-22 00:00:00,Khajrana Sector,4.21,Organic,2,0,4.73
+2026-05-22 00:00:00,Annapurna Sector,5.01,Recyclable,3,0,4.97
+2026-05-22 00:00:00,LIG Sector,4.98,Recyclable,2,0,4.87
+2026-05-22 12:00:00,Rajwada Sector,3.42,Organic,2,0,4.99
+2026-05-22 12:00:00,Vijay Nagar Sector,2.36,Recyclable,1,0,4.87
+2026-05-22 12:00:00,Palasia Sector,1.66,Organic,1,0,4.94
+2026-05-22 12:00:00,Bhawarkua Sector,3.3,Organic,2,0,4.7
+2026-05-22 12:00:00,Sudama Nagar Sector,2.16,Organic,1,0,4.86
+2026-05-22 12:00:00,Khajrana Sector,1.81,Organic,1,0,4.93
+2026-05-22 12:00:00,Annapurna Sector,0.84,Recyclable,1,0,4.86
+2026-05-22 12:00:00,LIG Sector,1.72,Recyclable,1,0,5.0
+2026-05-23 00:00:00,Rajwada Sector,8.19,Hazardous,4,0,4.99
+2026-05-23 00:00:00,Vijay Nagar Sector,8.23,Recyclable,4,0,4.67
+2026-05-23 00:00:00,Palasia Sector,5.23,Organic,3,0,4.67
+2026-05-23 00:00:00,Bhawarkua Sector,4.92,Recyclable,2,0,4.96
+2026-05-23 00:00:00,Sudama Nagar Sector,4.95,Recyclable,2,0,4.84
+2026-05-23 00:00:00,Khajrana Sector,6.82,Organic,3,0,4.9
+2026-05-23 00:00:00,Annapurna Sector,6.21,Organic,3,0,4.92
+2026-05-23 00:00:00,LIG Sector,5.12,Organic,3,0,4.82
+2026-05-23 12:00:00,Rajwada Sector,3.86,Organic,2,0,4.84
+2026-05-23 12:00:00,Vijay Nagar Sector,2.7,Recyclable,2,0,4.96
+2026-05-23 12:00:00,Palasia Sector,1.89,Organic,1,0,4.7
+2026-05-23 12:00:00,Bhawarkua Sector,1.91,Recyclable,1,0,5.0
+2026-05-23 12:00:00,Sudama Nagar Sector,2.1,Organic,1,0,4.91
+2026-05-23 12:00:00,Khajrana Sector,2.36,Organic,1,0,4.93
+2026-05-23 12:00:00,Annapurna Sector,3.74,Organic,2,0,4.85
+2026-05-23 12:00:00,LIG Sector,3.38,Organic,2,0,4.88
+2026-05-24 00:00:00,Rajwada Sector,7.71,Recyclable,4,0,4.96
+2026-05-24 00:00:00,Vijay Nagar Sector,7.73,Recyclable,4,0,4.81
+2026-05-24 00:00:00,Palasia Sector,6.23,Hazardous,3,0,4.97
+2026-05-24 00:00:00,Bhawarkua Sector,5.38,Organic,3,0,4.78
+2026-05-24 00:00:00,Sudama Nagar Sector,5.07,Organic,3,0,4.82
+2026-05-24 00:00:00,Khajrana Sector,5.18,Organic,3,0,4.8
+2026-05-24 00:00:00,Annapurna Sector,5.64,Organic,3,0,4.84
+2026-05-24 00:00:00,LIG Sector,5.83,Organic,3,0,4.95
+2026-05-24 12:00:00,Rajwada Sector,3.12,Organic,2,0,4.98
+2026-05-24 12:00:00,Vijay Nagar Sector,3.19,Organic,2,0,4.78
+2026-05-24 12:00:00,Palasia Sector,2.4,Organic,1,0,4.83
+2026-05-24 12:00:00,Bhawarkua Sector,1.69,Recyclable,1,0,4.72
+2026-05-24 12:00:00,Sudama Nagar Sector,1.65,Organic,1,0,4.76
+2026-05-24 12:00:00,Khajrana Sector,1.58,Recyclable,1,0,4.86
+2026-05-24 12:00:00,Annapurna Sector,2.29,Recyclable,1,0,5.0
+2026-05-24 12:00:00,LIG Sector,1.92,Organic,1,0,4.76
+2026-05-25 00:00:00,Rajwada Sector,6.8,Organic,3,0,5.0
+2026-05-25 00:00:00,Vijay Nagar Sector,7.08,Organic,3,0,4.79
+2026-05-25 00:00:00,Palasia Sector,5.39,Organic,3,0,4.92
+2026-05-25 00:00:00,Bhawarkua Sector,4.93,Organic,2,0,4.56
+2026-05-25 00:00:00,Sudama Nagar Sector,5.35,Organic,3,0,4.81
+2026-05-25 00:00:00,Khajrana Sector,4.2,Organic,2,0,4.79
+2026-05-25 00:00:00,Annapurna Sector,5.11,Organic,3,0,4.74
+2026-05-25 00:00:00,LIG Sector,5.68,Organic,3,0,4.82
+2026-05-25 12:00:00,Rajwada Sector,3.91,Organic,2,0,4.88
+2026-05-25 12:00:00,Vijay Nagar Sector,2.89,Organic,2,0,4.95
+2026-05-25 12:00:00,Palasia Sector,2.04,Recyclable,1,0,4.77
+2026-05-25 12:00:00,Bhawarkua Sector,1.43,Recyclable,1,0,4.67
+2026-05-25 12:00:00,Sudama Nagar Sector,2.06,Hazardous,1,0,4.9
+2026-05-25 12:00:00,Khajrana Sector,1.44,Organic,1,0,4.75
+2026-05-25 12:00:00,Annapurna Sector,2.04,Organic,1,0,4.9
+2026-05-25 12:00:00,LIG Sector,1.76,Recyclable,1,0,4.92
+2026-05-26 00:00:00,Rajwada Sector,7.48,Organic,3,0,4.98
+2026-05-26 00:00:00,Vijay Nagar Sector,6.52,Organic,3,0,4.97
+2026-05-26 00:00:00,Palasia Sector,4.28,Recyclable,2,0,4.89
+2026-05-26 00:00:00,Bhawarkua Sector,4.62,Organic,2,0,4.95
+2026-05-26 00:00:00,Sudama Nagar Sector,6.13,Organic,3,0,4.95
+2026-05-26 00:00:00,Khajrana Sector,5.1,Organic,3,0,4.65
+2026-05-26 00:00:00,Annapurna Sector,5.23,Organic,3,0,4.86
+2026-05-26 00:00:00,LIG Sector,4.76,Hazardous,2,0,4.77
+2026-05-26 12:00:00,Rajwada Sector,3.4,Recyclable,2,0,4.95
+2026-05-26 12:00:00,Vijay Nagar Sector,2.59,Recyclable,2,0,4.75
+2026-05-26 12:00:00,Palasia Sector,1.77,Organic,1,0,4.96
+2026-05-26 12:00:00,Bhawarkua Sector,2.14,Organic,1,0,4.74
+2026-05-26 12:00:00,Sudama Nagar Sector,1.88,Organic,1,0,4.98
+2026-05-26 12:00:00,Khajrana Sector,1.91,Recyclable,1,0,4.92
+2026-05-26 12:00:00,Annapurna Sector,1.62,Organic,1,0,4.92
+2026-05-26 12:00:00,LIG Sector,2.97,Organic,2,0,4.84
+2026-05-27 00:00:00,Rajwada Sector,6.76,Organic,3,0,4.8
+2026-05-27 00:00:00,Vijay Nagar Sector,6.93,Organic,3,0,4.8
+2026-05-27 00:00:00,Palasia Sector,5.16,Organic,3,0,4.69
+2026-05-27 00:00:00,Bhawarkua Sector,4.31,Recyclable,2,0,4.84
+2026-05-27 00:00:00,Sudama Nagar Sector,5.06,Organic,3,0,4.77
+2026-05-27 00:00:00,Khajrana Sector,4.95,Organic,2,0,4.8
+2026-05-27 00:00:00,Annapurna Sector,5.58,Organic,3,0,4.92
+2026-05-27 00:00:00,LIG Sector,4.68,Organic,2,0,4.79
+2026-05-27 12:00:00,Rajwada Sector,3.05,Recyclable,2,0,4.82
+2026-05-27 12:00:00,Vijay Nagar Sector,2.78,Organic,2,0,4.99
+2026-05-27 12:00:00,Palasia Sector,2.09,Organic,1,0,4.82
+2026-05-27 12:00:00,Bhawarkua Sector,1.57,Hazardous,1,0,4.85
+2026-05-27 12:00:00,Sudama Nagar Sector,1.95,Recyclable,1,0,4.91
+2026-05-27 12:00:00,Khajrana Sector,2.48,Organic,1,0,4.77
+2026-05-27 12:00:00,Annapurna Sector,2.06,Organic,1,0,4.89
+2026-05-27 12:00:00,LIG Sector,2.02,Recyclable,1,1,4.26
+2026-05-28 00:00:00,Rajwada Sector,7.39,Recyclable,3,0,4.83
+2026-05-28 00:00:00,Vijay Nagar Sector,7.37,Recyclable,3,0,4.88
+2026-05-28 00:00:00,Palasia Sector,5.77,Hazardous,3,2,3.39
+2026-05-28 00:00:00,Bhawarkua Sector,4.6,Recyclable,2,0,4.98
+2026-05-28 00:00:00,Sudama Nagar Sector,4.68,Recyclable,2,0,4.96
+2026-05-28 00:00:00,Khajrana Sector,4.79,Organic,2,2,3.56
+2026-05-28 00:00:00,Annapurna Sector,5.3,Organic,3,0,4.9
+2026-05-28 00:00:00,LIG Sector,4.53,Organic,2,0,4.91
+2026-05-28 12:00:00,Rajwada Sector,2.88,Organic,2,0,4.82
+2026-05-28 12:00:00,Vijay Nagar Sector,3.29,Organic,2,0,4.79
+2026-05-28 12:00:00,Palasia Sector,1.93,Hazardous,1,0,4.8
+2026-05-28 12:00:00,Bhawarkua Sector,1.86,Recyclable,1,0,5.0
+2026-05-28 12:00:00,Sudama Nagar Sector,1.49,Organic,1,0,4.9
+2026-05-28 12:00:00,Khajrana Sector,1.69,Recyclable,1,0,4.9
+2026-05-28 12:00:00,Annapurna Sector,1.94,Recyclable,1,0,4.59
+2026-05-28 12:00:00,LIG Sector,1.95,Organic,1,0,4.8
+2026-05-29 00:00:00,Rajwada Sector,7.27,Organic,3,0,4.69
+2026-05-29 00:00:00,Vijay Nagar Sector,7.21,Hazardous,3,0,4.66
+2026-05-29 00:00:00,Palasia Sector,4.39,Recyclable,2,0,4.79
+2026-05-29 00:00:00,Bhawarkua Sector,4.53,Recyclable,2,0,4.89
+2026-05-29 00:00:00,Sudama Nagar Sector,3.62,Organic,2,0,4.89
+2026-05-29 00:00:00,Khajrana Sector,4.85,Organic,2,0,5.0
+2026-05-29 00:00:00,Annapurna Sector,4.26,Recyclable,2,0,4.87
+2026-05-29 00:00:00,LIG Sector,4.85,Organic,2,0,4.79
+2026-05-29 12:00:00,Rajwada Sector,3.41,Organic,2,0,4.83
+2026-05-29 12:00:00,Vijay Nagar Sector,3.67,Organic,2,0,5.0
+2026-05-29 12:00:00,Palasia Sector,1.49,Organic,1,0,4.84
+2026-05-29 12:00:00,Bhawarkua Sector,1.3,Organic,1,0,4.96
+2026-05-29 12:00:00,Sudama Nagar Sector,2.34,Recyclable,1,0,5.0
+2026-05-29 12:00:00,Khajrana Sector,1.51,Organic,1,0,4.86
+2026-05-29 12:00:00,Annapurna Sector,2.52,Organic,2,0,4.95
+2026-05-29 12:00:00,LIG Sector,1.46,Organic,1,0,4.81
+2026-05-30 00:00:00,Rajwada Sector,7.42,Recyclable,3,0,4.86
+2026-05-30 00:00:00,Vijay Nagar Sector,7.1,Organic,3,0,4.83
+2026-05-30 00:00:00,Palasia Sector,5.3,Recyclable,3,0,4.92
+2026-05-30 00:00:00,Bhawarkua Sector,5.25,Recyclable,3,0,4.9
+2026-05-30 00:00:00,Sudama Nagar Sector,5.64,Recyclable,3,0,5.0
+2026-05-30 00:00:00,Khajrana Sector,6.62,Organic,3,0,4.79
+2026-05-30 00:00:00,Annapurna Sector,5.82,Recyclable,3,0,4.77
+2026-05-30 00:00:00,LIG Sector,5.34,Recyclable,3,0,4.8
+2026-05-30 12:00:00,Rajwada Sector,3.17,Hazardous,2,0,4.96
+2026-05-30 12:00:00,Vijay Nagar Sector,4.04,Organic,2,0,4.67
+2026-05-30 12:00:00,Palasia Sector,2.58,Organic,2,0,4.83
+2026-05-30 12:00:00,Bhawarkua Sector,3.17,Organic,2,0,4.73
+2026-05-30 12:00:00,Sudama Nagar Sector,2.69,Organic,2,1,4.21
+2026-05-30 12:00:00,Khajrana Sector,2.06,Organic,1,0,5.0
+2026-05-30 12:00:00,Annapurna Sector,2.24,Recyclable,1,0,4.78
+2026-05-30 12:00:00,LIG Sector,2.33,Recyclable,1,0,4.84
+2026-05-31 00:00:00,Rajwada Sector,8.21,Organic,4,0,4.77
+2026-05-31 00:00:00,Vijay Nagar Sector,7.5,Organic,3,0,5.0
+2026-05-31 00:00:00,Palasia Sector,5.73,Recyclable,3,0,5.0
+2026-05-31 00:00:00,Bhawarkua Sector,5.52,Organic,3,0,4.77
+2026-05-31 00:00:00,Sudama Nagar Sector,5.46,Recyclable,3,0,4.74
+2026-05-31 00:00:00,Khajrana Sector,5.27,Organic,3,0,4.8
+2026-05-31 00:00:00,Annapurna Sector,5.52,Organic,3,0,4.86
+2026-05-31 00:00:00,LIG Sector,5.54,Organic,3,0,4.84
+2026-05-31 12:00:00,Rajwada Sector,3.75,Organic,2,0,4.74
+2026-05-31 12:00:00,Vijay Nagar Sector,3.83,Recyclable,2,0,4.95
+2026-05-31 12:00:00,Palasia Sector,2.84,Recyclable,2,0,4.89
+2026-05-31 12:00:00,Bhawarkua Sector,3.32,Recyclable,2,0,4.71
+2026-05-31 12:00:00,Sudama Nagar Sector,2.48,Organic,1,0,4.83
+2026-05-31 12:00:00,Khajrana Sector,2.4,Recyclable,1,0,4.98
+2026-05-31 12:00:00,Annapurna Sector,2.26,Organic,1,0,4.88
+2026-05-31 12:00:00,LIG Sector,1.58,Organic,1,0,4.92
+2026-06-01 00:00:00,Rajwada Sector,7.32,Recyclable,3,0,4.95
+2026-06-01 00:00:00,Vijay Nagar Sector,6.54,Organic,3,0,4.75
+2026-06-01 00:00:00,Palasia Sector,4.85,Organic,2,0,4.78
+2026-06-01 00:00:00,Bhawarkua Sector,5.09,Organic,3,0,4.88
+2026-06-01 00:00:00,Sudama Nagar Sector,4.99,Recyclable,2,0,4.81
+2026-06-01 00:00:00,Khajrana Sector,5.36,Recyclable,3,0,4.92
+2026-06-01 00:00:00,Annapurna Sector,5.07,Organic,3,0,4.84
+2026-06-01 00:00:00,LIG Sector,4.64,Recyclable,2,0,4.94
+2026-06-01 12:00:00,Rajwada Sector,2.89,Organic,2,0,4.75
+2026-06-01 12:00:00,Vijay Nagar Sector,4.02,Recyclable,2,0,4.8
+2026-06-01 12:00:00,Palasia Sector,2.59,Recyclable,2,0,4.97
+2026-06-01 12:00:00,Bhawarkua Sector,1.34,Organic,1,0,4.81
+2026-06-01 12:00:00,Sudama Nagar Sector,1.27,Organic,1,0,4.84
+2026-06-01 12:00:00,Khajrana Sector,1.56,Organic,1,0,4.82
+2026-06-01 12:00:00,Annapurna Sector,1.93,Organic,1,0,4.84
+2026-06-01 12:00:00,LIG Sector,1.97,Organic,1,0,4.84
+2026-06-02 00:00:00,Rajwada Sector,6.67,Organic,3,0,4.78
+2026-06-02 00:00:00,Vijay Nagar Sector,7.04,Organic,3,0,4.84
+2026-06-02 00:00:00,Palasia Sector,4.73,Organic,2,0,4.91
+2026-06-02 00:00:00,Bhawarkua Sector,5.28,Recyclable,3,0,4.86
+2026-06-02 00:00:00,Sudama Nagar Sector,4.33,Organic,2,0,4.81
+2026-06-02 00:00:00,Khajrana Sector,5.45,Organic,3,0,4.73
+2026-06-02 00:00:00,Annapurna Sector,4.41,Recyclable,2,0,4.87
+2026-06-02 00:00:00,LIG Sector,4.38,Recyclable,2,0,4.86
+2026-06-02 12:00:00,Rajwada Sector,3.03,Organic,2,0,4.72
+2026-06-02 12:00:00,Vijay Nagar Sector,2.28,Organic,1,0,4.91
+2026-06-02 12:00:00,Palasia Sector,2.57,Organic,2,0,4.94
+2026-06-02 12:00:00,Bhawarkua Sector,1.99,Organic,1,0,4.89
+2026-06-02 12:00:00,Sudama Nagar Sector,2.03,Organic,1,0,4.92
+2026-06-02 12:00:00,Khajrana Sector,2.56,Recyclable,2,0,4.85
+2026-06-02 12:00:00,Annapurna Sector,2.05,Organic,1,0,4.85
+2026-06-02 12:00:00,LIG Sector,3.01,Organic,2,0,4.65
+2026-06-03 00:00:00,Rajwada Sector,7.14,Organic,3,1,4.28
+2026-06-03 00:00:00,Vijay Nagar Sector,7.26,Organic,3,0,5.0
+2026-06-03 00:00:00,Palasia Sector,4.85,Organic,2,0,4.89
+2026-06-03 00:00:00,Bhawarkua Sector,5.07,Organic,3,0,4.85
+2026-06-03 00:00:00,Sudama Nagar Sector,4.21,Organic,2,0,4.77
+2026-06-03 00:00:00,Khajrana Sector,5.44,Organic,3,0,4.84
+2026-06-03 00:00:00,Annapurna Sector,5.21,Recyclable,3,0,4.71
+2026-06-03 00:00:00,LIG Sector,5.43,Organic,3,0,4.91
+2026-06-03 12:00:00,Rajwada Sector,3.36,Organic,2,0,4.93
+2026-06-03 12:00:00,Vijay Nagar Sector,2.62,Hazardous,2,0,4.9
+2026-06-03 12:00:00,Palasia Sector,2.54,Recyclable,2,0,4.77
+2026-06-03 12:00:00,Bhawarkua Sector,2.1,Recyclable,1,0,4.92
+2026-06-03 12:00:00,Sudama Nagar Sector,1.99,Organic,1,0,4.79
+2026-06-03 12:00:00,Khajrana Sector,2.85,Organic,2,0,4.63
+2026-06-03 12:00:00,Annapurna Sector,3.45,Organic,2,0,4.98
+2026-06-03 12:00:00,LIG Sector,2.72,Organic,2,0,5.0
+2026-06-04 00:00:00,Rajwada Sector,7.36,Organic,3,0,4.96
+2026-06-04 00:00:00,Vijay Nagar Sector,7.28,Recyclable,3,0,4.85
+2026-06-04 00:00:00,Palasia Sector,4.86,Recyclable,2,0,4.94
+2026-06-04 00:00:00,Bhawarkua Sector,3.77,Organic,2,0,4.85
+2026-06-04 00:00:00,Sudama Nagar Sector,3.92,Organic,2,0,4.71
+2026-06-04 00:00:00,Khajrana Sector,4.43,Organic,2,0,4.97
+2026-06-04 00:00:00,Annapurna Sector,4.87,Organic,2,0,4.73
+2026-06-04 00:00:00,LIG Sector,5.3,Organic,3,0,4.87
+2026-06-04 12:00:00,Rajwada Sector,3.27,Organic,2,0,4.74
+2026-06-04 12:00:00,Vijay Nagar Sector,3.23,Recyclable,2,0,4.92
+2026-06-04 12:00:00,Palasia Sector,1.8,Organic,1,0,4.93
+2026-06-04 12:00:00,Bhawarkua Sector,2.16,Organic,1,0,4.86
+2026-06-04 12:00:00,Sudama Nagar Sector,1.69,Organic,1,0,4.91
+2026-06-04 12:00:00,Khajrana Sector,2.88,Organic,2,0,4.75
+2026-06-04 12:00:00,Annapurna Sector,2.49,Recyclable,1,0,4.97
+2026-06-04 12:00:00,LIG Sector,1.75,Organic,1,0,4.8
+2026-06-05 00:00:00,Rajwada Sector,6.86,Organic,3,0,4.65
+2026-06-05 00:00:00,Vijay Nagar Sector,6.55,Hazardous,3,0,4.93
+2026-06-05 00:00:00,Palasia Sector,4.57,Organic,2,0,4.74
+2026-06-05 00:00:00,Bhawarkua Sector,4.6,Organic,2,0,4.95
+2026-06-05 00:00:00,Sudama Nagar Sector,4.62,Hazardous,2,0,4.8
+2026-06-05 00:00:00,Khajrana Sector,4.73,Organic,2,0,4.66
+2026-06-05 00:00:00,Annapurna Sector,4.74,Hazardous,2,0,4.7
+2026-06-05 00:00:00,LIG Sector,4.42,Organic,2,0,5.0
+2026-06-05 12:00:00,Rajwada Sector,3.08,Recyclable,2,0,4.67
+2026-06-05 12:00:00,Vijay Nagar Sector,2.84,Organic,2,0,4.91
+2026-06-05 12:00:00,Palasia Sector,2.99,Organic,2,0,4.88
+2026-06-05 12:00:00,Bhawarkua Sector,1.97,Recyclable,1,0,4.81
+2026-06-05 12:00:00,Sudama Nagar Sector,1.62,Organic,1,0,4.63
+2026-06-05 12:00:00,Khajrana Sector,1.6,Recyclable,1,0,4.85
+2026-06-05 12:00:00,Annapurna Sector,1.76,Organic,1,0,4.84
+2026-06-05 12:00:00,LIG Sector,1.68,Organic,1,0,4.85
+2026-06-06 00:00:00,Rajwada Sector,7.2,Hazardous,3,0,4.74
+2026-06-06 00:00:00,Vijay Nagar Sector,8.53,Organic,4,0,4.74
+2026-06-06 00:00:00,Palasia Sector,5.48,Organic,3,0,4.86
+2026-06-06 00:00:00,Bhawarkua Sector,5.04,Recyclable,3,0,4.88
+2026-06-06 00:00:00,Sudama Nagar Sector,5.67,Organic,3,0,4.85
+2026-06-06 00:00:00,Khajrana Sector,5.79,Organic,3,0,4.85
+2026-06-06 00:00:00,Annapurna Sector,5.98,Organic,3,0,4.78
+2026-06-06 00:00:00,LIG Sector,5.21,Hazardous,3,0,4.74
+2026-06-06 12:00:00,Rajwada Sector,3.09,Organic,2,0,4.7
+2026-06-06 12:00:00,Vijay Nagar Sector,3.21,Recyclable,2,0,4.91
+2026-06-06 12:00:00,Palasia Sector,2.17,Recyclable,1,0,4.95
+2026-06-06 12:00:00,Bhawarkua Sector,2.0,Recyclable,1,0,4.67
+2026-06-06 12:00:00,Sudama Nagar Sector,3.01,Organic,2,0,4.78
+2026-06-06 12:00:00,Khajrana Sector,2.89,Organic,2,0,4.82
+2026-06-06 12:00:00,Annapurna Sector,1.85,Organic,1,0,4.75
+2026-06-06 12:00:00,LIG Sector,1.67,Organic,1,0,4.86
+2026-06-07 00:00:00,Rajwada Sector,7.58,Recyclable,4,0,4.73
+2026-06-07 00:00:00,Vijay Nagar Sector,7.68,Organic,4,0,4.86
+2026-06-07 00:00:00,Palasia Sector,6.2,Organic,3,0,4.77
+2026-06-07 00:00:00,Bhawarkua Sector,5.87,Organic,3,0,4.78
+2026-06-07 00:00:00,Sudama Nagar Sector,5.37,Organic,3,0,5.0
+2026-06-07 00:00:00,Khajrana Sector,5.57,Organic,3,0,4.93
+2026-06-07 00:00:00,Annapurna Sector,4.37,Organic,2,0,4.86
+2026-06-07 00:00:00,LIG Sector,5.56,Hazardous,3,0,4.68
+2026-06-07 12:00:00,Rajwada Sector,2.57,Organic,2,0,4.85
+2026-06-07 12:00:00,Vijay Nagar Sector,1.97,Recyclable,1,0,4.93
+2026-06-07 12:00:00,Palasia Sector,2.74,Recyclable,2,0,5.0
+2026-06-07 12:00:00,Bhawarkua Sector,2.35,Organic,1,0,4.8
+2026-06-07 12:00:00,Sudama Nagar Sector,2.39,Recyclable,1,0,4.65
+2026-06-07 12:00:00,Khajrana Sector,2.6,Organic,2,0,4.75
+2026-06-07 12:00:00,Annapurna Sector,2.35,Organic,1,0,4.82
+2026-06-07 12:00:00,LIG Sector,2.44,Organic,1,0,4.94
+2026-06-08 00:00:00,Rajwada Sector,6.75,Organic,3,0,4.79
+2026-06-08 00:00:00,Vijay Nagar Sector,7.17,Organic,3,1,4.24
+2026-06-08 00:00:00,Palasia Sector,4.73,Organic,2,0,4.7
+2026-06-08 00:00:00,Bhawarkua Sector,4.99,Organic,2,0,4.99
+2026-06-08 00:00:00,Sudama Nagar Sector,4.7,Hazardous,2,0,4.71
+2026-06-08 00:00:00,Khajrana Sector,5.68,Recyclable,3,0,4.62
+2026-06-08 00:00:00,Annapurna Sector,4.95,Organic,2,0,4.85
+2026-06-08 00:00:00,LIG Sector,5.62,Hazardous,3,0,4.81
+2026-06-08 12:00:00,Rajwada Sector,3.66,Recyclable,2,0,4.77
+2026-06-08 12:00:00,Vijay Nagar Sector,2.95,Organic,2,0,4.66
+2026-06-08 12:00:00,Palasia Sector,2.7,Organic,2,0,4.94
+2026-06-08 12:00:00,Bhawarkua Sector,2.59,Recyclable,2,0,4.98
+2026-06-08 12:00:00,Sudama Nagar Sector,3.0,Organic,2,0,4.96
+2026-06-08 12:00:00,Khajrana Sector,2.02,Organic,1,0,4.88
+2026-06-08 12:00:00,Annapurna Sector,2.25,Recyclable,1,0,4.94
+2026-06-08 12:00:00,LIG Sector,1.87,Recyclable,1,0,4.84
+2026-06-09 00:00:00,Rajwada Sector,6.87,Recyclable,3,0,4.92
+2026-06-09 00:00:00,Vijay Nagar Sector,6.99,Organic,3,0,4.74
+2026-06-09 00:00:00,Palasia Sector,4.19,Recyclable,2,0,4.97
+2026-06-09 00:00:00,Bhawarkua Sector,4.29,Organic,2,0,4.75
+2026-06-09 00:00:00,Sudama Nagar Sector,4.8,Organic,2,0,4.79
+2026-06-09 00:00:00,Khajrana Sector,4.83,Recyclable,2,0,4.84
+2026-06-09 00:00:00,Annapurna Sector,3.72,Organic,2,0,4.81
+2026-06-09 00:00:00,LIG Sector,4.9,Recyclable,2,0,4.97
+2026-06-09 12:00:00,Rajwada Sector,2.54,Organic,2,0,4.94
+2026-06-09 12:00:00,Vijay Nagar Sector,3.03,Organic,2,0,4.81
+2026-06-09 12:00:00,Palasia Sector,2.38,Hazardous,1,0,4.84
+2026-06-09 12:00:00,Bhawarkua Sector,1.28,Organic,1,0,4.86
+2026-06-09 12:00:00,Sudama Nagar Sector,1.74,Recyclable,1,0,4.87
+2026-06-09 12:00:00,Khajrana Sector,2.95,Recyclable,2,0,4.78
+2026-06-09 12:00:00,Annapurna Sector,2.41,Organic,1,0,4.88
+2026-06-09 12:00:00,LIG Sector,3.01,Organic,2,0,4.76
+2026-06-10 00:00:00,Rajwada Sector,7.48,Organic,3,0,4.77
+2026-06-10 00:00:00,Vijay Nagar Sector,7.11,Recyclable,3,0,4.98
+2026-06-10 00:00:00,Palasia Sector,4.27,Hazardous,2,0,4.7
+2026-06-10 00:00:00,Bhawarkua Sector,4.84,Organic,2,0,4.76
+2026-06-10 00:00:00,Sudama Nagar Sector,4.63,Recyclable,2,0,4.94
+2026-06-10 00:00:00,Khajrana Sector,4.09,Organic,2,0,4.84
+2026-06-10 00:00:00,Annapurna Sector,3.85,Organic,2,0,4.84
+2026-06-10 00:00:00,LIG Sector,4.7,Organic,2,0,4.77
+2026-06-10 12:00:00,Rajwada Sector,3.64,Organic,2,0,4.73
+2026-06-10 12:00:00,Vijay Nagar Sector,2.69,Organic,2,0,4.96
+2026-06-10 12:00:00,Palasia Sector,2.2,Organic,1,0,4.96
+2026-06-10 12:00:00,Bhawarkua Sector,1.76,Organic,1,0,4.81
+2026-06-10 12:00:00,Sudama Nagar Sector,1.18,Organic,1,0,4.83
+2026-06-10 12:00:00,Khajrana Sector,1.51,Organic,1,0,5.0
+2026-06-10 12:00:00,Annapurna Sector,2.29,Recyclable,1,0,4.79
+2026-06-10 12:00:00,LIG Sector,2.02,Organic,1,0,4.89
+2026-06-11 00:00:00,Rajwada Sector,7.42,Recyclable,3,0,4.86
+2026-06-11 00:00:00,Vijay Nagar Sector,7.07,Recyclable,3,0,4.72
+2026-06-11 00:00:00,Palasia Sector,5.3,Hazardous,3,0,4.7
+2026-06-11 00:00:00,Bhawarkua Sector,5.01,Organic,3,0,4.79
+2026-06-11 00:00:00,Sudama Nagar Sector,5.27,Organic,3,0,4.98
+2026-06-11 00:00:00,Khajrana Sector,4.76,Organic,2,0,4.9
+2026-06-11 00:00:00,Annapurna Sector,5.13,Recyclable,3,0,5.0
+2026-06-11 00:00:00,LIG Sector,5.27,Organic,3,0,4.86
+2026-06-11 12:00:00,Rajwada Sector,2.53,Organic,2,0,4.76
+2026-06-11 12:00:00,Vijay Nagar Sector,2.96,Organic,2,0,4.88
+2026-06-11 12:00:00,Palasia Sector,2.55,Organic,2,0,4.69
+2026-06-11 12:00:00,Bhawarkua Sector,1.24,Organic,1,1,4.35
+2026-06-11 12:00:00,Sudama Nagar Sector,1.36,Organic,1,0,4.85
+2026-06-11 12:00:00,Khajrana Sector,1.24,Organic,1,0,4.89
+2026-06-11 12:00:00,Annapurna Sector,2.32,Organic,1,0,4.89
+2026-06-11 12:00:00,LIG Sector,2.08,Recyclable,1,0,4.78
+2026-06-12 00:00:00,Rajwada Sector,6.55,Organic,3,0,4.73
+2026-06-12 00:00:00,Vijay Nagar Sector,7.57,Organic,4,0,4.91
+2026-06-12 00:00:00,Palasia Sector,5.14,Organic,3,0,4.91
+2026-06-12 00:00:00,Bhawarkua Sector,4.68,Organic,2,0,4.82
+2026-06-12 00:00:00,Sudama Nagar Sector,5.05,Recyclable,3,0,4.72
+2026-06-12 00:00:00,Khajrana Sector,4.87,Organic,2,0,4.82
+2026-06-12 00:00:00,Annapurna Sector,5.39,Organic,3,0,4.97
+2026-06-12 00:00:00,LIG Sector,5.04,Organic,3,0,5.0
+2026-06-12 12:00:00,Rajwada Sector,2.68,Recyclable,2,0,4.71
+2026-06-12 12:00:00,Vijay Nagar Sector,3.47,Recyclable,2,0,4.96
+2026-06-12 12:00:00,Palasia Sector,2.21,Organic,1,0,4.9
+2026-06-12 12:00:00,Bhawarkua Sector,1.54,Organic,1,0,4.93
+2026-06-12 12:00:00,Sudama Nagar Sector,2.66,Organic,2,0,5.0
+2026-06-12 12:00:00,Khajrana Sector,1.86,Organic,1,0,4.95
+2026-06-12 12:00:00,Annapurna Sector,2.37,Organic,1,0,4.88
+2026-06-12 12:00:00,LIG Sector,2.0,Organic,1,0,4.79
+2026-06-13 00:00:00,Rajwada Sector,7.3,Recyclable,3,0,4.84
+2026-06-13 00:00:00,Vijay Nagar Sector,8.3,Recyclable,4,0,4.84
+2026-06-13 00:00:00,Palasia Sector,5.01,Recyclable,3,0,4.78
+2026-06-13 00:00:00,Bhawarkua Sector,5.48,Organic,3,0,4.7
+2026-06-13 00:00:00,Sudama Nagar Sector,5.47,Recyclable,3,0,4.68
+2026-06-13 00:00:00,Khajrana Sector,6.19,Hazardous,3,0,4.78
+2026-06-13 00:00:00,Annapurna Sector,5.25,Organic,3,0,4.98
+2026-06-13 00:00:00,LIG Sector,6.17,Organic,3,0,4.95
+2026-06-13 12:00:00,Rajwada Sector,2.82,Recyclable,2,0,4.73
+2026-06-13 12:00:00,Vijay Nagar Sector,3.88,Organic,2,0,4.76
+2026-06-13 12:00:00,Palasia Sector,2.6,Organic,2,0,4.64
+2026-06-13 12:00:00,Bhawarkua Sector,2.24,Organic,1,0,4.88
+2026-06-13 12:00:00,Sudama Nagar Sector,2.45,Organic,1,0,4.73
+2026-06-13 12:00:00,Khajrana Sector,2.47,Organic,1,0,4.89
+2026-06-13 12:00:00,Annapurna Sector,1.87,Organic,1,0,4.83
+2026-06-13 12:00:00,LIG Sector,3.12,Organic,2,0,4.9
+2026-06-14 00:00:00,Rajwada Sector,7.7,Organic,4,0,4.72
+2026-06-14 00:00:00,Vijay Nagar Sector,7.89,Recyclable,4,0,4.97
+2026-06-14 00:00:00,Palasia Sector,6.14,Organic,3,0,4.97
+2026-06-14 00:00:00,Bhawarkua Sector,6.18,Organic,3,0,4.79
+2026-06-14 00:00:00,Sudama Nagar Sector,5.51,Recyclable,3,0,4.78
+2026-06-14 00:00:00,Khajrana Sector,5.21,Organic,3,0,4.8
+2026-06-14 00:00:00,Annapurna Sector,5.63,Recyclable,3,0,4.92
+2026-06-14 00:00:00,LIG Sector,5.75,Recyclable,3,0,4.83
+2026-06-14 12:00:00,Rajwada Sector,3.22,Organic,2,0,4.85
+2026-06-14 12:00:00,Vijay Nagar Sector,3.22,Organic,2,0,4.93
+2026-06-14 12:00:00,Palasia Sector,2.5,Organic,1,0,4.75
+2026-06-14 12:00:00,Bhawarkua Sector,3.38,Organic,2,0,4.89
+2026-06-14 12:00:00,Sudama Nagar Sector,2.49,Recyclable,1,0,4.79
+2026-06-14 12:00:00,Khajrana Sector,3.49,Organic,2,2,3.38
+2026-06-14 12:00:00,Annapurna Sector,2.75,Organic,2,0,5.0
+2026-06-14 12:00:00,LIG Sector,2.45,Organic,1,0,4.95
+2026-06-15 00:00:00,Rajwada Sector,7.73,Organic,4,0,5.0
+2026-06-15 00:00:00,Vijay Nagar Sector,6.73,Recyclable,3,0,4.91
+2026-06-15 00:00:00,Palasia Sector,5.58,Organic,3,0,5.0
+2026-06-15 00:00:00,Bhawarkua Sector,4.58,Recyclable,2,0,4.82
+2026-06-15 00:00:00,Sudama Nagar Sector,4.39,Recyclable,2,0,4.96
+2026-06-15 00:00:00,Khajrana Sector,5.16,Recyclable,3,0,4.69
+2026-06-15 00:00:00,Annapurna Sector,4.92,Recyclable,2,0,5.0
+2026-06-15 00:00:00,LIG Sector,5.07,Organic,3,0,4.93
+2026-06-15 12:00:00,Rajwada Sector,3.43,Organic,2,0,4.9
+2026-06-15 12:00:00,Vijay Nagar Sector,2.99,Organic,2,0,4.85
+2026-06-15 12:00:00,Palasia Sector,2.72,Organic,2,0,4.97
+2026-06-15 12:00:00,Bhawarkua Sector,2.54,Organic,2,0,4.72
+2026-06-15 12:00:00,Sudama Nagar Sector,1.75,Organic,1,0,4.81
+2026-06-15 12:00:00,Khajrana Sector,1.41,Recyclable,1,0,4.86
+2026-06-15 12:00:00,Annapurna Sector,2.28,Organic,1,0,5.0
+2026-06-15 12:00:00,LIG Sector,1.42,Organic,1,0,4.79
+2026-06-16 00:00:00,Rajwada Sector,6.66,Organic,3,0,4.78
+2026-06-16 00:00:00,Vijay Nagar Sector,6.6,Recyclable,3,0,4.89
+2026-06-16 00:00:00,Palasia Sector,3.91,Organic,2,0,4.75
+2026-06-16 00:00:00,Bhawarkua Sector,5.67,Organic,3,0,4.76
+2026-06-16 00:00:00,Sudama Nagar Sector,4.29,Recyclable,2,0,4.92
+2026-06-16 00:00:00,Khajrana Sector,5.76,Organic,3,0,4.92
+2026-06-16 00:00:00,Annapurna Sector,5.04,Organic,3,0,4.73
+2026-06-16 00:00:00,LIG Sector,4.81,Recyclable,2,0,4.94
+2026-06-16 12:00:00,Rajwada Sector,3.14,Organic,2,0,4.77
+2026-06-16 12:00:00,Vijay Nagar Sector,2.76,Organic,2,0,4.84
+2026-06-16 12:00:00,Palasia Sector,1.45,Recyclable,1,0,4.87
+2026-06-16 12:00:00,Bhawarkua Sector,2.56,Organic,2,0,4.85
+2026-06-16 12:00:00,Sudama Nagar Sector,1.68,Recyclable,1,0,4.98
+2026-06-16 12:00:00,Khajrana Sector,3.01,Organic,2,0,4.97
+2026-06-16 12:00:00,Annapurna Sector,1.0,Organic,1,0,4.85
+2026-06-16 12:00:00,LIG Sector,2.42,Recyclable,1,0,4.93
+2026-06-17 00:00:00,Rajwada Sector,6.15,Organic,3,0,4.78
+2026-06-17 00:00:00,Vijay Nagar Sector,6.17,Organic,3,0,4.73
+2026-06-17 00:00:00,Palasia Sector,4.48,Organic,2,0,4.73
+2026-06-17 00:00:00,Bhawarkua Sector,4.65,Recyclable,2,0,4.91
+2026-06-17 00:00:00,Sudama Nagar Sector,5.07,Organic,3,0,4.92
+2026-06-17 00:00:00,Khajrana Sector,4.69,Organic,2,0,4.74
+2026-06-17 00:00:00,Annapurna Sector,5.17,Organic,3,0,4.86
+2026-06-17 00:00:00,LIG Sector,5.51,Organic,3,0,4.91
+2026-06-17 12:00:00,Rajwada Sector,2.88,Organic,2,0,5.0
+2026-06-17 12:00:00,Vijay Nagar Sector,3.33,Organic,2,0,4.83
+2026-06-17 12:00:00,Palasia Sector,1.94,Organic,1,0,4.61
+2026-06-17 12:00:00,Bhawarkua Sector,1.87,Organic,1,0,4.8
+2026-06-17 12:00:00,Sudama Nagar Sector,1.85,Organic,1,0,4.64
+2026-06-17 12:00:00,Khajrana Sector,1.93,Organic,1,0,4.76
+2026-06-17 12:00:00,Annapurna Sector,1.83,Recyclable,1,0,5.0
+2026-06-17 12:00:00,LIG Sector,2.1,Recyclable,1,0,4.79
+2026-06-18 00:00:00,Rajwada Sector,7.15,Organic,3,0,4.8
+2026-06-18 00:00:00,Vijay Nagar Sector,6.74,Organic,3,0,5.0
+2026-06-18 00:00:00,Palasia Sector,5.67,Recyclable,3,0,4.83
+2026-06-18 00:00:00,Bhawarkua Sector,5.94,Recyclable,3,0,4.99
+2026-06-18 00:00:00,Sudama Nagar Sector,4.57,Recyclable,2,0,4.83
+2026-06-18 00:00:00,Khajrana Sector,4.93,Recyclable,2,0,4.75
+2026-06-18 00:00:00,Annapurna Sector,4.74,Recyclable,2,0,4.8
+2026-06-18 00:00:00,LIG Sector,4.89,Recyclable,2,0,5.0
+2026-06-18 12:00:00,Rajwada Sector,2.8,Recyclable,2,0,4.87
+2026-06-18 12:00:00,Vijay Nagar Sector,2.59,Organic,2,0,4.76
+2026-06-18 12:00:00,Palasia Sector,2.15,Organic,1,0,4.76
+2026-06-18 12:00:00,Bhawarkua Sector,1.87,Organic,1,0,4.84
+2026-06-18 12:00:00,Sudama Nagar Sector,1.96,Recyclable,1,0,4.84
+2026-06-18 12:00:00,Khajrana Sector,1.4,Organic,1,0,4.8
+2026-06-18 12:00:00,Annapurna Sector,1.6,Recyclable,1,0,4.94
+2026-06-18 12:00:00,LIG Sector,1.4,Organic,1,0,4.73
+2026-06-19 00:00:00,Rajwada Sector,7.47,Organic,3,0,4.84
+2026-06-19 00:00:00,Vijay Nagar Sector,7.22,Recyclable,3,0,4.89
+2026-06-19 00:00:00,Palasia Sector,5.25,Organic,3,0,4.84
+2026-06-19 00:00:00,Bhawarkua Sector,4.95,Organic,2,0,4.88
+2026-06-19 00:00:00,Sudama Nagar Sector,4.52,Recyclable,2,0,4.83
+2026-06-19 00:00:00,Khajrana Sector,5.15,Organic,3,0,4.86
+2026-06-19 00:00:00,Annapurna Sector,4.76,Organic,2,0,4.94
+2026-06-19 00:00:00,LIG Sector,5.27,Recyclable,3,0,4.73
+2026-06-19 12:00:00,Rajwada Sector,2.89,Organic,2,0,4.69
+2026-06-19 12:00:00,Vijay Nagar Sector,2.85,Organic,2,0,4.87
+2026-06-19 12:00:00,Palasia Sector,2.81,Recyclable,2,0,4.75
+2026-06-19 12:00:00,Bhawarkua Sector,0.96,Recyclable,1,0,4.91
+2026-06-19 12:00:00,Sudama Nagar Sector,1.81,Organic,1,0,4.87
+2026-06-19 12:00:00,Khajrana Sector,2.59,Organic,2,0,4.81
+2026-06-19 12:00:00,Annapurna Sector,2.19,Organic,1,0,5.0
+2026-06-19 12:00:00,LIG Sector,1.42,Organic,1,0,4.71
+2026-06-20 00:00:00,Rajwada Sector,7.69,Organic,4,0,4.89
+2026-06-20 00:00:00,Vijay Nagar Sector,7.43,Organic,3,0,4.75
+2026-06-20 00:00:00,Palasia Sector,6.14,Organic,3,0,4.7
+2026-06-20 00:00:00,Bhawarkua Sector,5.25,Recyclable,3,0,4.79
+2026-06-20 00:00:00,Sudama Nagar Sector,6.17,Organic,3,0,4.9
+2026-06-20 00:00:00,Khajrana Sector,5.36,Organic,3,0,5.0
+2026-06-20 00:00:00,Annapurna Sector,5.13,Recyclable,3,0,4.91
+2026-06-20 00:00:00,LIG Sector,6.55,Organic,3,0,4.89
+2026-06-20 12:00:00,Rajwada Sector,3.77,Organic,2,0,4.76
+2026-06-20 12:00:00,Vijay Nagar Sector,3.23,Organic,2,0,4.92
+2026-06-20 12:00:00,Palasia Sector,2.82,Organic,2,0,4.72
+2026-06-20 12:00:00,Bhawarkua Sector,2.21,Organic,1,0,4.84
+2026-06-20 12:00:00,Sudama Nagar Sector,3.01,Organic,2,0,4.93
+2026-06-20 12:00:00,Khajrana Sector,3.05,Hazardous,2,0,4.9
+2026-06-20 12:00:00,Annapurna Sector,2.44,Organic,1,0,4.81
+2026-06-20 12:00:00,LIG Sector,2.87,Recyclable,2,0,4.87
+2026-06-21 00:00:00,Rajwada Sector,8.38,Recyclable,4,0,4.84
+2026-06-21 00:00:00,Vijay Nagar Sector,8.27,Organic,4,0,4.88
+2026-06-21 00:00:00,Palasia Sector,5.98,Recyclable,3,0,4.99
+2026-06-21 00:00:00,Bhawarkua Sector,5.99,Organic,3,0,4.97
+2026-06-21 00:00:00,Sudama Nagar Sector,5.29,Organic,3,0,4.9
+2026-06-21 00:00:00,Khajrana Sector,5.57,Organic,3,0,4.84
+2026-06-21 00:00:00,Annapurna Sector,4.94,Organic,2,0,4.58
+2026-06-21 00:00:00,LIG Sector,6.02,Recyclable,3,0,4.72
+2026-06-21 12:00:00,Rajwada Sector,4.12,Organic,2,0,4.77
+2026-06-21 12:00:00,Vijay Nagar Sector,4.23,Organic,2,0,4.84
+2026-06-21 12:00:00,Palasia Sector,1.76,Organic,1,0,4.96
+2026-06-21 12:00:00,Bhawarkua Sector,2.29,Hazardous,1,0,4.71
+2026-06-21 12:00:00,Sudama Nagar Sector,1.94,Recyclable,1,0,4.7
+2026-06-21 12:00:00,Khajrana Sector,2.28,Organic,1,0,4.84
+2026-06-21 12:00:00,Annapurna Sector,2.75,Organic,2,0,4.8
+2026-06-21 12:00:00,LIG Sector,1.95,Organic,1,0,4.75
+2026-06-22 00:00:00,Rajwada Sector,7.55,Hazardous,4,0,4.92
+2026-06-22 00:00:00,Vijay Nagar Sector,7.27,Organic,3,0,4.92
+2026-06-22 00:00:00,Palasia Sector,3.78,Organic,2,0,4.81
+2026-06-22 00:00:00,Bhawarkua Sector,5.2,Recyclable,3,0,4.83
+2026-06-22 00:00:00,Sudama Nagar Sector,4.92,Organic,2,0,4.84
+2026-06-22 00:00:00,Khajrana Sector,4.24,Organic,2,0,4.82
+2026-06-22 00:00:00,Annapurna Sector,4.37,Organic,2,0,4.73
+2026-06-22 00:00:00,LIG Sector,4.74,Organic,2,0,4.84
+2026-06-22 12:00:00,Rajwada Sector,2.75,Recyclable,2,0,4.7
+2026-06-22 12:00:00,Vijay Nagar Sector,1.98,Organic,1,0,4.91
+2026-06-22 12:00:00,Palasia Sector,2.18,Organic,1,0,4.99
+2026-06-22 12:00:00,Bhawarkua Sector,1.23,Organic,1,0,4.85
+2026-06-22 12:00:00,Sudama Nagar Sector,2.42,Organic,1,0,4.74
+2026-06-22 12:00:00,Khajrana Sector,1.36,Organic,1,0,4.75
+2026-06-22 12:00:00,Annapurna Sector,2.76,Organic,2,0,4.96
+2026-06-22 12:00:00,LIG Sector,1.75,Organic,1,0,4.9
+2026-06-23 00:00:00,Rajwada Sector,6.87,Organic,3,0,4.93
+2026-06-23 00:00:00,Vijay Nagar Sector,6.61,Organic,3,0,4.62
+2026-06-23 00:00:00,Palasia Sector,4.43,Recyclable,2,0,4.62
+2026-06-23 00:00:00,Bhawarkua Sector,4.67,Organic,2,0,4.79
+2026-06-23 00:00:00,Sudama Nagar Sector,4.11,Organic,2,0,4.86
+2026-06-23 00:00:00,Khajrana Sector,4.53,Organic,2,0,4.81
+2026-06-23 00:00:00,Annapurna Sector,4.48,Organic,2,0,4.91
+2026-06-23 00:00:00,LIG Sector,4.54,Organic,2,0,4.72
+2026-06-23 12:00:00,Rajwada Sector,2.9,Recyclable,2,0,4.72
+2026-06-23 12:00:00,Vijay Nagar Sector,3.16,Recyclable,2,0,5.0
+2026-06-23 12:00:00,Palasia Sector,1.75,Organic,1,0,4.76
+2026-06-23 12:00:00,Bhawarkua Sector,2.74,Hazardous,2,0,4.77
+2026-06-23 12:00:00,Sudama Nagar Sector,2.16,Organic,1,0,4.92
+2026-06-23 12:00:00,Khajrana Sector,2.33,Recyclable,1,0,4.76
+2026-06-23 12:00:00,Annapurna Sector,1.73,Organic,1,0,4.8
+2026-06-23 12:00:00,LIG Sector,1.49,Organic,1,0,4.77
+2026-06-24 00:00:00,Rajwada Sector,6.28,Organic,3,0,5.0
+2026-06-24 00:00:00,Vijay Nagar Sector,6.78,Recyclable,3,0,4.87
+2026-06-24 00:00:00,Palasia Sector,5.35,Recyclable,3,0,4.85
+2026-06-24 00:00:00,Bhawarkua Sector,5.17,Recyclable,3,0,4.72
+2026-06-24 00:00:00,Sudama Nagar Sector,4.52,Organic,2,0,5.0
+2026-06-24 00:00:00,Khajrana Sector,4.66,Hazardous,2,0,5.0
+2026-06-24 00:00:00,Annapurna Sector,4.98,Recyclable,2,0,4.72
+2026-06-24 00:00:00,LIG Sector,4.98,Recyclable,2,0,5.0
+2026-06-24 12:00:00,Rajwada Sector,3.22,Recyclable,2,0,4.75
+2026-06-24 12:00:00,Vijay Nagar Sector,2.5,Recyclable,2,0,4.77
+2026-06-24 12:00:00,Palasia Sector,2.19,Organic,1,0,4.69
+2026-06-24 12:00:00,Bhawarkua Sector,2.28,Organic,1,0,4.78
+2026-06-24 12:00:00,Sudama Nagar Sector,0.98,Recyclable,1,0,4.85
+2026-06-24 12:00:00,Khajrana Sector,2.55,Organic,2,0,4.72
+2026-06-24 12:00:00,Annapurna Sector,2.48,Organic,1,0,4.9
+2026-06-24 12:00:00,LIG Sector,1.55,Organic,1,0,4.88
+2026-06-25 00:00:00,Rajwada Sector,6.53,Recyclable,3,0,4.7
+2026-06-25 00:00:00,Vijay Nagar Sector,7.79,Hazardous,4,0,4.85
+2026-06-25 00:00:00,Palasia Sector,4.77,Organic,2,0,4.77
+2026-06-25 00:00:00,Bhawarkua Sector,4.71,Recyclable,2,0,4.87
+2026-06-25 00:00:00,Sudama Nagar Sector,4.88,Recyclable,2,0,4.84
+2026-06-25 00:00:00,Khajrana Sector,5.01,Organic,3,0,4.95
+2026-06-25 00:00:00,Annapurna Sector,4.69,Organic,2,0,4.84
+2026-06-25 00:00:00,LIG Sector,5.39,Organic,3,0,4.87
