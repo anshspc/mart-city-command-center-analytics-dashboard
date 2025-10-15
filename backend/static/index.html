@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart City Command Center Analytics Dashboard</title>
+    <!-- Google Fonts: Inter & Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Leaflet CSS for Maps -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-brand">
+                <i class="fa-solid fa-city brand-icon"></i>
+                <div class="brand-text">
+                    <h2>INDORE</h2>
+                    <span>Command Center</span>
+                </div>
+            </div>
+            <nav class="sidebar-menu">
+                <button class="nav-item active" data-target="dashboard-section">
+                    <i class="fa-solid fa-chart-line"></i> Executive Summary
+                </button>
+                <button class="nav-item" data-target="traffic-section">
+                    <i class="fa-solid fa-car"></i> Traffic Analytics
+                </button>
+                <button class="nav-item" data-target="utilities-section">
+                    <i class="fa-solid fa-faucet-drip"></i> Utility Operations
+                </button>
+                <button class="nav-item" data-target="complaints-section">
+                    <i class="fa-solid fa-users-gear"></i> Citizen Complaints
+                </button>
+                <button class="nav-item" data-target="sandbox-section">
+                    <i class="fa-solid fa-brain"></i> Predictive Sandbox
+                </button>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="pipeline-card">
+                    <h4>ETL Data pipeline</h4>
+                    <span id="pipeline-status"><i class="fa-solid fa-circle-check"></i> Connected</span>
+                    <button id="btn-sync" class="btn-primary-sm"><i class="fa-solid fa-rotate"></i> Sync Data</button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Workspace -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-title">
+                    <h1 id="page-title">Executive Command Dashboard</h1>
+                    <p id="current-time-display">Active Session | June 25, 2026</p>
+                </div>
+                <div class="header-actions">
+                    <a href="/api/reports/download/pdf" class="btn-action" download><i class="fa-solid fa-file-pdf"></i> PDF Report</a>
+                    <a href="/api/reports/download/excel" class="btn-action" download><i class="fa-solid fa-file-excel"></i> Excel Report</a>
+                </div>
+            </header>
+
+            <!-- Dashboard Sections -->
+            <!-- 1. Executive Summary -->
+            <div id="dashboard-section" class="tab-content active">
+                <div class="kpi-grid">
+                    <div class="kpi-card" id="kpi-complaints">
+                        <div class="kpi-icon"><i class="fa-solid fa-comments"></i></div>
+                        <div class="kpi-details">
+                            <h3>Citizen Complaints</h3>
+                            <h2 id="kpi-val-complaints">-</h2>
+                            <p><span id="kpi-val-resrate">-</span>% Resolution Rate</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card" id="kpi-resolution">
+                        <div class="kpi-icon"><i class="fa-solid fa-clock-rotate-left"></i></div>
+                        <div class="kpi-details">
+                            <h3>Avg Resolution Time</h3>
+                            <h2 id="kpi-val-restime">-</h2>
+                            <p>Hours per incident</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card" id="kpi-traffic">
+                        <div class="kpi-icon"><i class="fa-solid fa-traffic-light"></i></div>
+                        <div class="kpi-details">
+                            <h3>Traffic Congestion Index</h3>
+                            <h2 id="kpi-val-traffic">-</h2>
+                            <p>Avg Index (Scale 0-10)</p>
+                        </div>
+                    </div>
+                    <div class="kpi-card" id="kpi-water">
+                        <div class="kpi-icon"><i class="fa-solid fa-droplet"></i></div>
+                        <div class="kpi-details">
+                            <h3>Daily Water Supply</h3>
+                            <h2 id="kpi-val-water">-</h2>
+                            <p>m³ Consumed today</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="charts-grid-2">
+                    <div class="chart-card">
+                        <h3>Citizen Complaint Volume Trends</h3>
+                        <div class="chart-container">
+                            <canvas id="complaintsTrendChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Average Complaint Resolution Time by Department</h3>
+                        <div class="chart-container">
+                            <canvas id="deptResolutionChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="charts-grid-3">
+                    <div class="chart-card">
+                        <h3>Power Outage Statistics</h3>
+                        <div class="metric-center">
+                            <div class="big-metric-value" id="val-power-outages">0</div>
+                            <span class="big-metric-label">Total Outage Minutes</span>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Sanitation Operational Rating</h3>
+                        <div class="metric-center">
+                            <div class="big-metric-value" id="val-sanitation-rating">0.0</div>
+                            <span class="big-metric-label">Average Satisfaction Rating</span>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Complaint Status Breakdown</h3>
+                        <div class="chart-container-sm">
+                            <canvas id="complaintStatusChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2. Traffic Analytics -->
+            <div id="traffic-section" class="tab-content">
+                <div class="charts-grid-2">
+                    <div class="chart-card">
+                        <h3>Intersection Congestion Index Comparison</h3>
+                        <p class="chart-subtitle">Average traffic load level measured from sensors</p>
+                        <div class="chart-container">
+                            <canvas id="trafficIntersectionChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>24-Hour Traffic Congestion Cycle</h3>
+                        <p class="chart-subtitle">Aggregated average index profile showing peak bottlenecks</p>
+                        <div class="chart-container">
+                            <canvas id="trafficHourlyChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="charts-grid-1">
+                    <div class="chart-card">
+                        <h3>Weather Impact on Average Congestion Index</h3>
+                        <div class="chart-container-lg">
+                            <canvas id="trafficWeatherChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. Utility Operations -->
+            <div id="utilities-section" class="tab-content">
+                <div class="charts-grid-2">
+                    <div class="chart-card">
+                        <h3>Water Grid Consumption & Quality Index Trend</h3>
+                        <div class="chart-container">
+                            <canvas id="waterTrendChart"></canvas>
+                        </div>
+                    </div>
+                    <div class="chart-card">
+                        <h3>Electricity Load Factor & Outages by Zone</h3>
+                        <div class="chart-container">
+                            <canvas id="powerZoneChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="charts-grid-1">
+                    <div class="chart-card">
+                        <h3>Sanitation Sector Waste Collection Performance</h3>
+                        <div class="chart-container-lg">
+                            <canvas id="sanitationSectorChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4. Citizen Complaints Map -->
+            <div id="complaints-section" class="tab-content">
+                <div class="map-layout">
+                    <div class="map-sidebar">
+                        <h3>Complaint Filters</h3>
+                        <div class="filter-group">
+                            <label><input type="checkbox" id="chk-resolved" checked> Resolved</label>
+                            <label><input type="checkbox" id="chk-inprogress" checked> In Progress</label>
+                            <label><input type="checkbox" id="chk-open" checked> Open</label>
+                        </div>
+                        <div class="issues-list-container">
+                            <h3>Trending Issues</h3>
+                            <ul id="trending-issues-list" class="trend-list">
+                                <!-- Populated dynamically -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="map-container-wrapper">
+                        <div id="complaintsMap"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 5. Predictive Sandbox -->
+            <div id="sandbox-section" class="tab-content">
+                <div class="sandbox-grid">
+                    <!-- Traffic prediction -->
+                    <div class="sandbox-card">
+                        <div class="card-header-icon"><i class="fa-solid fa-car-tunnel"></i></div>
+                        <h3>Traffic Congestion Predictor</h3>
+                        <p class="card-desc">Estimate intersection congestion index based on real-time factors.</p>
+                        
+                        <div class="form-group">
+                            <label for="tf-intersection">Intersection ID</label>
+                            <select id="tf-intersection">
+                                <option value="101">Regal Square (101)</option>
+                                <option value="102">Vijay Nagar Square (102)</option>
+                                <option value="103">Bhawarkua Square (103)</option>
+                                <option value="104">Geeta Bhawan Square (104)</option>
+                                <option value="105">Palasia Square (105)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tf-hour">Hour of Day (0-23)</label>
+                            <input type="number" id="tf-hour" min="0" max="23" value="8">
+                        </div>
+                        <div class="form-group">
+                            <label for="tf-day">Day of Week</label>
+                            <select id="tf-day">
+                                <option value="0">Monday</option>
+                                <option value="1">Tuesday</option>
+                                <option value="2">Wednesday</option>
+                                <option value="3">Thursday</option>
+                                <option value="4">Friday</option>
+                                <option value="5">Saturday</option>
+                                <option value="6">Sunday</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tf-vehicles">Vehicle Count</label>
+                            <input type="number" id="tf-vehicles" min="0" max="1000" value="380">
+                        </div>
+                        <div class="form-group">
+                            <label for="tf-weather">Weather</label>
+                            <select id="tf-weather">
+                                <option value="Sunny">Sunny</option>
+                                <option value="Rainy">Rainy</option>
+                                <option value="Foggy">Foggy</option>
+                                <option value="Snowy">Snowy</option>
+                            </select>
+                        </div>
+                        
+                        <button id="btn-predict-traffic" class="btn-predict">Compute Traffic Index</button>
+                        
+                        <div class="prediction-output" id="out-traffic">
+                            <h4>PREDICTION OUTPUT</h4>
+                            <div class="output-val" id="val-pred-traffic">-</div>
+                            <p id="desc-pred-traffic">Input values and press run.</p>
+                        </div>
+                    </div>
+
+                    <!-- Water consumption forecast -->
+                    <div class="sandbox-card">
+                        <div class="card-header-icon"><i class="fa-solid fa-house-water"></i></div>
+                        <h3>Water Demand Forecast</h3>
+                        <p class="card-desc">Forecast next day water consumption using historical series lag features.</p>
+                        
+                        <div class="form-group">
+                            <label for="wt-district">District ID</label>
+                            <select id="wt-district">
+                                <option value="Rajwada Central">Rajwada Central</option>
+                                <option value="Vijay Nagar">Vijay Nagar</option>
+                                <option value="Palasia">Palasia</option>
+                                <option value="Sudama Nagar">Sudama Nagar</option>
+                                <option value="Bhawarkua">Bhawarkua</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="wt-date">Forecast Date</label>
+                            <input type="date" id="wt-date" value="2026-06-26">
+                        </div>
+                        <div class="form-group">
+                            <label for="wt-lag1">Lag 1 (Yesterday's Consumption - m³)</label>
+                            <input type="number" id="wt-lag1" value="240">
+                        </div>
+                        <div class="form-group">
+                            <label for="wt-lag2">Lag 2 (Two Days Ago Consumption - m³)</label>
+                            <input type="number" id="wt-lag2" value="238">
+                        </div>
+                        <div class="form-group">
+                            <label for="wt-lag7">Lag 7 (Same Day Last Week - m³)</label>
+                            <input type="number" id="wt-lag7" value="245">
+                        </div>
+                        
+                        <button id="btn-predict-water" class="btn-predict">Forecast Water Usage</button>
+                        
+                        <div class="prediction-output" id="out-water">
+                            <h4>PREDICTION OUTPUT</h4>
+                            <div class="output-val" id="val-pred-water">-</div>
+                            <p id="desc-pred-water">Input values and press run.</p>
+                        </div>
+                    </div>
+
+                    <!-- Complaint volume prediction -->
+                    <div class="sandbox-card">
+                        <div class="card-header-icon"><i class="fa-solid fa-users-viewfinder"></i></div>
+                        <h3>Complaint Volume Predictor</h3>
+                        <p class="card-desc">Predict tomorrow's complaint load to optimize staffing levels.</p>
+                        
+                        <div class="form-group">
+                            <label for="cp-dept">Department</label>
+                            <select id="cp-dept">
+                                <option value="1">IMC Traffic & Roads</option>
+                                <option value="2">IMC Water Works Dept</option>
+                                <option value="3">MPWZ Electricity Board</option>
+                                <option value="4">Swachh Indore Waste Management</option>
+                                <option value="5">IMC 311 Help Desk</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="cp-date">Target Date</label>
+                            <input type="date" id="cp-date" value="2026-06-26">
+                        </div>
+                        <div class="form-group">
+                            <label for="cp-lag1">Lag 1 (Yesterday's count)</label>
+                            <input type="number" id="cp-lag1" value="8">
+                        </div>
+                        <div class="form-group">
+                            <label for="cp-lag2">Lag 2 (Two Days Ago count)</label>
+                            <input type="number" id="cp-lag2" value="6">
+                        </div>
+                        <div class="form-group">
+                            <label for="cp-lag7">Lag 7 (Same Day Last Week count)</label>
+                            <input type="number" id="cp-lag7" value="7">
+                        </div>
+                        
+                        <button id="btn-predict-complaints" class="btn-predict">Predict Daily Volume</button>
+                        
+                        <div class="prediction-output" id="out-complaints">
+                            <h4>PREDICTION OUTPUT</h4>
+                            <div class="output-val" id="val-pred-complaints">-</div>
+                            <p id="desc-pred-complaints">Input values and press run.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i class="fa-solid fa-circle-notch fa-spin toast-icon"></i>
+            <span id="toast-message">Processing ETL sync...</span>
+        </div>
+    </div>
+
+    <!-- Chart.js and Leaflet.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <!-- Custom Application Script -->
+    <script src="/static/app.js"></script>
+</body>
+</html>
