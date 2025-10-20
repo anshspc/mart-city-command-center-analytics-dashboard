@@ -1,0 +1,105 @@
+-------------------------------------------------------------
+-- DAX MEASURES FOR SMART CITY POWER BI DASHBOARD
+-------------------------------------------------------------
+
+-- 1. CITIZEN COMPLAINTS MEASURES
+
+-- Total complaints count
+Total Complaints = COUNT(citizen_complaints[complaint_id])
+
+-- Count of resolved complaints
+Resolved Complaints = 
+CALCULATE(
+    [Total Complaints],
+    citizen_complaints[status] = "Resolved"
+)
+
+-- Percentage of complaints successfully resolved
+Complaint Resolution Rate = 
+DIVIDE(
+    [Resolved Complaints],
+    [Total Complaints],
+    0
+)
+
+-- Average time to resolve complaints in hours
+-- (Assumes raw created_at and resolved_at are datetime types in Power BI)
+Avg Resolution Duration (Hours) = 
+AVERAGE(citizen_complaints[resolution_time_hrs])
+
+-- Calculated Column: Resolution Time in Hours
+-- (To be created in Power BI Data view inside citizen_complaints table)
+resolution_time_hrs = 
+IF(
+    NOT ISBLANK(citizen_complaints[resolved_at]),
+    DATEDIFF(citizen_complaints[created_at], citizen_complaints[resolved_at], HOUR),
+    BLANK()
+)
+
+
+-- 2. TRAFFIC DEPARTMENT MEASURES
+
+-- Average Traffic Congestion Index across sensor grids
+Average Congestion Index = AVERAGE(traffic_records[congestion_index])
+
+-- Average Vehicle Count
+Average Vehicle Volume = AVERAGE(traffic_records[vehicle_count])
+
+-- Average Speed of Vehicles
+Average Vehicle Speed (km/h) = AVERAGE(traffic_records[average_speed])
+
+-- Calculated Column: Is Peak Hour Description
+Is Peak Hour Desc = IF(traffic_records[is_peak_hour] = 1, "Peak Hour", "Off-Peak")
+
+
+-- 3. UTILITIES & ENERGY GRID MEASURES
+
+-- Total Water Consumed (m3)
+Total Water Discharged (m3) = SUM(water_consumption[water_consumption_m3])
+
+-- Average Water Quality Index
+Average Water Quality = AVERAGE(water_consumption[quality_index])
+
+-- Total Power Outages Duration (Minutes)
+Total Outage Minutes = SUM(electricity_usage[outage_duration_min])
+
+-- Average Power Grid Load Factor
+Average Load Factor = AVERAGE(electricity_usage[load_factor])
+
+
+-- 4. SANITATION LOGISTICS MEASURES
+
+-- Total waste collected in tons
+Total Solid Waste Collected (Tons) = SUM(sanitation_records[waste_collected_tons])
+
+-- Average Sector Satisfaction Rating
+Average Sanitation Rating = AVERAGE(sanitation_records[sanitation_rating])
+
+-- Total Missed Pickups Count
+Total Missed Pickups = SUM(sanitation_records[missed_pickups])
+
+
+-- 5. ADVANCED ANALYTICAL FORECASTING / ROLLING METRICS
+
+-- Rolling 7-day average water consumption
+Rolling 7-Day Water Consumption = 
+CALCULATE(
+    [Total Water Discharged (m3)],
+    DATESINPERIOD(
+        'Calendar'[Date],
+        LASTDATE('Calendar'[Date]),
+        -7,
+        DAY
+    )
+)
+
+-- Month-over-Month Percentage Change in Water Usage
+MoM Water Consumption Change = 
+VAR CurrentMonthCons = [Total Water Discharged (m3)]
+VAR PrevMonthCons = 
+    CALCULATE(
+        [Total Water Discharged (m3)],
+        DATEADD('Calendar'[Date], -1, MONTH)
+    )
+RETURN
+    DIVIDE(CurrentMonthCons - PrevMonthCons, PrevMonthCons, 0)
