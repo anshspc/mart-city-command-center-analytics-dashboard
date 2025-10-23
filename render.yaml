@@ -9,3 +9,5 @@ services:
         value: 3.11.8
       - key: PYTHONUNBUFFERED
         value: "true"
+
+# Project deployment finalized config

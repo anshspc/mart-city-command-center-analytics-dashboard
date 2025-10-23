@@ -514,3 +514,5 @@ if os.path.exists(STATIC_DIR):
     @app.get("/")
     def read_index():
         return FileResponse(os.path.join(STATIC_DIR, "index.html"))
+
+# Project deployment finalized config

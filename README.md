@@ -123,3 +123,5 @@ Follow these steps to set up the virtual environment, generate the datasets, ing
 3. **Utilities Grid**: Monitors water consumption, leaks, load factor variables, power blackout statistics, and waste management sectors.
 4. **Citizen Request Map**: Interactive geospatial view of tickets color-coded by lifecycle state (Open = Red, In Progress = Orange, Resolved = Green).
 5. **Report Exports**: Download automated PDF reports and Excel sheets showing current operational metrics.
+
+# Project deployment finalized config
